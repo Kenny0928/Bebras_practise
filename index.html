@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bebras 運算思維自主練習</title>
+    <!-- Google Fonts for Modern Typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Noto+Sans+TC:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app-container">
+        
+        <!-- Sidebar Navigation -->
+        <aside id="sidebar" class="sidebar">
+            <div class="sidebar-header">
+                <i class="fa-solid fa-graduation-cap logo-icon"></i>
+                <h2>Bebras Practice</h2>
+            </div>
+            
+            <div class="progress-container">
+                <div class="progress-stats">
+                    <span id="completed-count">0/0</span> 完成
+                </div>
+                <div class="progress-bar-bg">
+                    <div id="progress-bar-fill" class="progress-bar-fill"></div>
+                </div>
+            </div>
+
+            <div class="nav-title">題目列表</div>
+            <div id="question-nav-grid" class="question-nav-grid">
+                <!-- Navigation Buttons injected by JS -->
+            </div>
+            
+            <div class="sidebar-footer">
+                <button id="btn-reset" class="btn-secondary">
+                    <i class="fa-solid fa-rotate-right"></i> 重新開始
+                </button>
+            </div>
+        </aside>
+
+        <!-- Main Content Area -->
+        <main id="main-content" class="main-content">
+            
+            <!-- Mobile Header Wrapper -->
+            <header class="mobile-header">
+                <button id="btn-toggle-sidebar" class="btn-icon">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+                <div class="mobile-title">Bebras Practice</div>
+            </header>
+
+            <!-- Loading State -->
+            <div id="loading-screen" class="loading-screen active">
+                <div class="spinner"></div>
+                <p>載入題庫中...</p>
+            </div>
+
+            <!-- Quiz Container -->
+            <div id="quiz-container" class="quiz-container hidden">
+                
+                <div class="question-header">
+                    <span class="badge" id="badge-question-id">Question 000</span>
+                    <h1 id="question-title" class="question-title">題目載入中...</h1>
+                    <div id="status-badge" class="status-badge hidden">
+                        <!-- e.g. "答對" / "答錯" -->
+                    </div>
+                </div>
+
+                <div class="question-body">
+                    <div class="question-image-container glass-panel">
+                        <img id="question-img" src="" alt="題目圖片" class="img-fluid">
+                    </div>
+                </div>
+
+                <div class="options-container">
+                    <h3 class="section-subtitle">請選擇您的答案：</h3>
+                    <div id="options-grid" class="options-grid">
+                        <!-- Options injected by JS -->
+                    </div>
+                </div>
+
+                <!-- Explanation Section (Hidden by default) -->
+                <div id="explanation-container" class="explanation-container hidden slide-up">
+                    <h3 class="section-subtitle"><i class="fa-regular fa-lightbulb"></i> 解答與說明</h3>
+                    <div class="explanation-content glass-panel">
+                        <p id="explanation-text" class="explanation-text"></p>
+                        <img id="explanation-img" src="" alt="解答截圖" class="img-fluid hidden">
+                    </div>
+                </div>
+
+                <!-- Bottom Controls -->
+                <div class="bottom-controls">
+                    <button id="btn-prev" class="btn-nav hidden">
+                        <i class="fa-solid fa-arrow-left"></i> 上一題
+                    </button>
+                    <div class="spacer"></div>
+                    <button id="btn-next" class="btn-nav btn-primary hidden">
+                        下一題 <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Finish Screen -->
+            <div id="finish-screen" class="finish-screen hidden fade-in">
+                <div class="finish-card glass-panel">
+                    <div class="finish-icon">🏆</div>
+                    <h2>練習完成！</h2>
+                    <p>您已經完成了本次題庫的所有練習。</p>
+                    <div class="final-score-container">
+                        <div class="score-circle">
+                            <span id="final-correct">0</span>
+                            <span class="divider">/</span>
+                            <span id="final-total">0</span>
+                        </div>
+                        <p class="score-label">答對題數</p>
+                    </div>
+                    <button id="btn-review-all" class="btn-primary mt-4">
+                        <i class="fa-solid fa-magnifying-glass"></i> 回頭檢閱題目
+                    </button>
+                </div>
+            </div>
+
+        </main>
+    </div>
+
+    <script src="app.js" type="module"></script>
+</body>
+</html>
