@@ -148,5 +148,30 @@
     ],
     "correct_answer": "D",
     "explanation_image": "images/2013-06/explanation.webp"
+  },
+  {
+    "id": "2022-2",
+    "title": "題目 2022-2",
+    "question_image": "images/2022-2/question.webp",
+    "options": [
+      {
+        "id": "A",
+        "image": "images/2022-2/option_A.webp"
+      },
+      {
+        "id": "B",
+        "image": "images/2022-2/option_B.webp"
+      },
+      {
+        "id": "C",
+        "image": "images/2022-2/option_C.webp"
+      },
+      {
+        "id": "D",
+        "image": "images/2022-2/option_D.webp"
+      }
+    ],
+    "correct_answer": "C",
+    "explanation_image": "images/2022-2/explanation.webp"
   }
 ]
