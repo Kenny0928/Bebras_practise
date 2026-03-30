@@ -16,8 +16,12 @@ const els = {
     badgeId: document.getElementById('badge-question-id'),
     title: document.getElementById('question-title'),
     qImg: document.getElementById('question-img'),
-    statusBadge: document.getElementById('status-badge'),
+    // Options & Short Answer
+    optionsContainer: document.getElementById('options-container'),
     optionsGrid: document.getElementById('options-grid'),
+    saContainer: document.getElementById('short-answer-container'),
+    saInput: document.getElementById('sa-input'),
+    btnSaSubmit: document.getElementById('btn-sa-submit'),
     
     // Explanation
     explContainer: document.getElementById('explanation-container'),
@@ -98,6 +102,18 @@ function setupEventListeners() {
         els.quiz.classList.remove('hidden');
         loadQuestion(0);
     });
+
+    els.btnSaSubmit.addEventListener('click', () => {
+        const q = STATE.questions[STATE.currentIndex];
+        handleShortAnswerSubmitted(els.saInput.value, q);
+    });
+
+    els.saInput.addEventListener('keypress', (e) => {
+        if (e.key === 'Enter') {
+            const q = STATE.questions[STATE.currentIndex];
+            handleShortAnswerSubmitted(els.saInput.value, q);
+        }
+    });
 }
 
 function buildNavigation() {
@@ -158,52 +174,64 @@ function loadQuestion(index) {
     els.statusBadge.className = 'status-badge hidden';
     els.explContainer.classList.add('hidden');
     
-    // Render Options
-    els.optionsGrid.innerHTML = '';
-    
-    q.options.forEach(opt => {
-        const card = document.createElement('div');
-        card.className = 'option-card';
-        card.id = `opt-${opt.id}`;
-        
-        const labelDiv = document.createElement('div');
-        labelDiv.className = 'option-label';
-        
-        const iconSpan = document.createElement('span');
-        iconSpan.className = 'opt-icon';
-        iconSpan.textContent = opt.id;
-        
-        labelDiv.appendChild(iconSpan);
-        
-        const imgCont = document.createElement('div');
-        imgCont.className = 'option-img-container';
-        const img = document.createElement('img');
-        img.src = `data/${opt.image}`;
-        img.alt = `Option ${opt.id}`;
-        imgCont.appendChild(img);
-        
-        card.appendChild(labelDiv);
-        card.appendChild(imgCont);
-        
-        // If already answered, resolve state immediately
+    // Render Type-Specific UI
+    const isSA = q.type === 'short_answer';
+    els.optionsContainer.classList.toggle('hidden', isSA);
+    els.saContainer.classList.toggle('hidden', !isSA);
+
+    if (isSA) {
+        els.saInput.value = prevAnswer ? prevAnswer.selected : '';
+        els.saInput.disabled = !!prevAnswer;
+        els.btnSaSubmit.disabled = !!prevAnswer;
         if (prevAnswer) {
-            card.classList.add('disabled', 'resolved');
-            if (opt.id === q.correct_answer) {
-                card.classList.add('correct-answer');
-                iconSpan.innerHTML = `<i class="fa-solid fa-check"></i> ${opt.id}`;
-            } else if (opt.id === prevAnswer.selected) {
-                card.classList.add('wrong-answer');
-                iconSpan.innerHTML = `<i class="fa-solid fa-xmark"></i> ${opt.id}`;
-            } else {
-                card.classList.add('dimmed');
-            }
+            els.btnSaSubmit.innerHTML = `<i class="fa-solid fa-check"></i> 已提交`;
         } else {
-            // Not answered yet, attach click listener
-            card.onclick = () => handleAnswerSelected(opt.id, q);
+            els.btnSaSubmit.innerHTML = `確認提交 <i class="fa-solid fa-paper-plane"></i>`;
         }
-        
-        els.optionsGrid.appendChild(card);
-    });
+    } else {
+        els.optionsGrid.innerHTML = '';
+        const options = q.options || [];
+        options.forEach(opt => {
+            const card = document.createElement('div');
+            card.className = 'option-card';
+            card.id = `opt-${opt.id}`;
+            
+            const labelDiv = document.createElement('div');
+            labelDiv.className = 'option-label';
+            
+            const iconSpan = document.createElement('span');
+            iconSpan.className = 'opt-icon';
+            iconSpan.textContent = opt.id;
+            
+            labelDiv.appendChild(iconSpan);
+            
+            const imgCont = document.createElement('div');
+            imgCont.className = 'option-img-container';
+            const img = document.createElement('img');
+            img.src = `data/${opt.image}`;
+            img.alt = `Option ${opt.id}`;
+            imgCont.appendChild(img);
+            
+            card.appendChild(labelDiv);
+            card.appendChild(imgCont);
+            
+            if (prevAnswer) {
+                card.classList.add('disabled', 'resolved');
+                if (opt.id === q.correct_answer) {
+                    card.classList.add('correct-answer');
+                    iconSpan.innerHTML = `<i class="fa-solid fa-check"></i> ${opt.id}`;
+                } else if (opt.id === prevAnswer.selected) {
+                    card.classList.add('wrong-answer');
+                    iconSpan.innerHTML = `<i class="fa-solid fa-xmark"></i> ${opt.id}`;
+                } else {
+                    card.classList.add('dimmed');
+                }
+            } else {
+                card.onclick = () => handleAnswerSelected(opt.id, q);
+            }
+            els.optionsGrid.appendChild(card);
+        });
+    }
 
     // Handle next/prev buttons
     els.btnPrev.classList.toggle('hidden', index === 0);
@@ -257,6 +285,27 @@ function handleAnswerSelected(selectedId, q) {
         }
     });
 
+    showExplanation(q, isCorrect);
+}
+
+function handleShortAnswerSubmitted(inputValue, q) {
+    if (!inputValue.trim()) return;
+    
+    const userAns = inputValue.trim().toLowerCase();
+    const correctAns = String(q.correct_answer).trim().toLowerCase();
+    const isCorrect = userAns === correctAns;
+    
+    STATE.answers[q.id] = {
+        selected: inputValue.trim(),
+        isCorrect: isCorrect
+    };
+    
+    els.saInput.disabled = true;
+    els.btnSaSubmit.disabled = true;
+    els.btnSaSubmit.innerHTML = `<i class="fa-solid fa-check"></i> 已提交`;
+    
+    updateProgress();
+    updateNavigationUI();
     showExplanation(q, isCorrect);
 }
 

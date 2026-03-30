@@ -77,10 +77,21 @@
                     </div>
                 </div>
 
-                <div class="options-container">
+                <div id="options-container" class="options-container">
                     <h3 class="section-subtitle">請選擇您的答案：</h3>
                     <div id="options-grid" class="options-grid">
                         <!-- Options injected by JS -->
+                    </div>
+                </div>
+
+                <!-- Short Answer Section (Hidden by default) -->
+                <div id="short-answer-container" class="short-answer-container hidden">
+                    <h3 class="section-subtitle">請輸入您的答案：</h3>
+                    <div class="sa-input-group glass-panel">
+                        <input type="text" id="sa-input" class="sa-input" placeholder="在這裡輸入答案...">
+                        <button id="btn-sa-submit" class="btn-primary">
+                            確認提交 <i class="fa-solid fa-paper-plane"></i>
+                        </button>
                     </div>
                 </div>
 

@@ -452,6 +452,46 @@ button {
     color: var(--text-primary);
 }
 
+/* Short Answer Section */
+.sa-input-group {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    background: white;
+    padding: 1.5rem;
+}
+.sa-input {
+    flex-grow: 1;
+    padding: 0.875rem 1.25rem;
+    border: 2px solid var(--border);
+    border-radius: var(--radius-md);
+    font-size: 1.125rem;
+    font-weight: 600;
+    font-family: inherit;
+    transition: var(--transition);
+    outline: none;
+}
+.sa-input:focus {
+    border-color: var(--primary);
+    box-shadow: 0 0 0 4px rgba(99, 102, 241, 0.1);
+}
+.sa-input:disabled {
+    background: var(--bg-main);
+    color: var(--text-secondary);
+    cursor: not-allowed;
+}
+
+@media (max-width: 600px) {
+    .sa-input-group {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .btn-sa-submit {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
 /* Bottom Controls */
 .bottom-controls {
     display: flex;
