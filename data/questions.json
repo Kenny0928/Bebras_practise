@@ -198,5 +198,55 @@
     ],
     "correct_answer": "D",
     "explanation_image": "images/2013_20/explanation.webp"
+  },
+  {
+    "id": "2022-03",
+    "title": "題目 2022-03",
+    "question_image": "images/2022-03/question.webp",
+    "options": [
+      {
+        "id": "A",
+        "image": "images/2022-03/option_A.webp"
+      },
+      {
+        "id": "B",
+        "image": "images/2022-03/option_B.webp"
+      },
+      {
+        "id": "C",
+        "image": "images/2022-03/option_C.webp"
+      },
+      {
+        "id": "D",
+        "image": "images/2022-03/option_D.webp"
+      }
+    ],
+    "correct_answer": "C",
+    "explanation_image": "images/2022-03/explanation.webp"
+  },
+  {
+    "id": "2022-04",
+    "title": "題目 2022-04",
+    "question_image": "images/2022-04/question.webp",
+    "options": [
+      {
+        "id": "A",
+        "image": "images/2022-04/option_A.webp"
+      },
+      {
+        "id": "B",
+        "image": "images/2022-04/option_B.webp"
+      },
+      {
+        "id": "C",
+        "image": "images/2022-04/option_C.webp"
+      },
+      {
+        "id": "D",
+        "image": "images/2022-04/option_D.webp"
+      }
+    ],
+    "correct_answer": "D",
+    "explanation_image": "images/2022-04/explanation.webp"
   }
 ]
