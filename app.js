@@ -242,10 +242,12 @@ function loadQuestion(index) {
     
     if (index === STATE.questions.length - 1) {
         els.btnNext.innerHTML = `完成練習 <i class="fa-solid fa-flag-checkered"></i>`;
-        els.btnNext.classList.replace('btn-secondary', 'btn-primary');
+        els.btnNext.classList.remove('btn-nav');
+        els.btnNext.classList.add('btn-primary');
     } else {
         els.btnNext.innerHTML = `下一題 <i class="fa-solid fa-arrow-right"></i>`;
-        els.btnNext.classList.replace('btn-primary', 'btn-nav');
+        els.btnNext.classList.remove('btn-primary');
+        els.btnNext.classList.add('btn-nav');
     }
 
     // If answered, show explanation immediately
