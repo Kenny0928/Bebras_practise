@@ -23,6 +23,9 @@ const els = {
     saInput: document.getElementById('sa-input'),
     btnSaSubmit: document.getElementById('btn-sa-submit'),
     
+    // Status Badge
+    statusBadge: document.getElementById('status-badge'),
+
     // Explanation
     explContainer: document.getElementById('explanation-container'),
     explText: document.getElementById('explanation-text'),
