@@ -14,17 +14,18 @@
 </head>
 <body>
     <div id="app-container">
-        
+
         <!-- Sidebar Navigation -->
         <aside id="sidebar" class="sidebar">
             <div class="sidebar-header">
                 <i class="fa-solid fa-graduation-cap logo-icon"></i>
                 <h2>Bebras Practice</h2>
             </div>
-            
+
             <div class="progress-container">
                 <div class="progress-stats">
-                    <span id="completed-count">0/0</span> 完成
+                    <span>完成 <span id="completed-count">0/0</span></span>
+                    <span>答對 <span id="correct-count">0</span></span>
                 </div>
                 <div class="progress-bar-bg">
                     <div id="progress-bar-fill" class="progress-bar-fill"></div>
@@ -36,6 +37,7 @@
                 <select id="filter-year" class="filter-select" aria-label="年份"></select>
                 <select id="filter-grade" class="filter-select" aria-label="年級"></select>
                 <select id="filter-diff" class="filter-select" aria-label="難度"></select>
+                <select id="filter-status" class="filter-select" aria-label="作答狀態"></select>
                 <div id="filter-count" class="filter-count"></div>
             </div>
 
@@ -43,23 +45,54 @@
             <div id="question-nav-grid" class="question-nav-grid">
                 <!-- Navigation Buttons injected by JS -->
             </div>
-            
+
             <div class="sidebar-footer">
                 <button id="btn-reset" class="btn-secondary">
-                    <i class="fa-solid fa-rotate-right"></i> 重新開始
+                    <i class="fa-solid fa-rotate-right"></i> 清除作答紀錄
                 </button>
             </div>
         </aside>
+        <div id="sidebar-backdrop" class="sidebar-backdrop"></div>
 
         <!-- Main Content Area -->
         <main id="main-content" class="main-content">
-            
-            <!-- Mobile Header Wrapper -->
-            <header class="mobile-header">
-                <button id="btn-toggle-sidebar" class="btn-icon">
+
+            <!-- Toolbar -->
+            <header id="toolbar" class="toolbar">
+                <button id="btn-toggle-sidebar" class="tool-btn" title="題目列表（M）">
                     <i class="fa-solid fa-bars"></i>
                 </button>
-                <div class="mobile-title">Bebras Practice</div>
+                <div class="toolbar-nav">
+                    <button id="btn-prev-top" class="tool-btn" title="上一題（←）"><i class="fa-solid fa-chevron-left"></i></button>
+                    <span class="badge" id="badge-question-id">Q 0 / 0</span>
+                    <button id="btn-next-top" class="tool-btn" title="下一題（→）"><i class="fa-solid fa-chevron-right"></i></button>
+                </div>
+                <div class="spacer"></div>
+                <div class="tool-group scale-group" role="group" aria-label="字級縮放">
+                    <button id="btn-scale-down" class="tool-btn" title="縮小字級（-）">A−</button>
+                    <button id="btn-scale-reset" class="tool-btn scale-level" title="還原 100%（0）">100%</button>
+                    <button id="btn-scale-up" class="tool-btn" title="放大字級（+）">A+</button>
+                </div>
+                <div class="tool-group">
+                    <button id="btn-layout" class="tool-btn toggle hide-narrow" title="左右並排：題目在左、作答與解說在右（L）" aria-pressed="false">
+                        <i class="fa-solid fa-table-columns"></i><span class="label">並排</span>
+                    </button>
+                    <button id="btn-fit" class="tool-btn toggle" title="整頁顯示：題目圖縮到一個畫面看得完（H）" aria-pressed="false">
+                        <i class="fa-solid fa-arrows-up-down"></i><span class="label">整頁</span>
+                    </button>
+                    <button id="btn-pen" class="tool-btn toggle" title="畫筆：在題目與解說圖上標註（P）" aria-pressed="false">
+                        <i class="fa-solid fa-pen"></i><span class="label">畫筆</span>
+                    </button>
+                    <button id="btn-teacher" class="tool-btn toggle" title="教學模式：點選項不計分，由老師公布答案（T）" aria-pressed="false">
+                        <i class="fa-solid fa-chalkboard-user"></i><span class="label">教學</span>
+                    </button>
+                    <button id="btn-fullscreen" class="tool-btn" title="全螢幕（F）">
+                        <i class="fa-solid fa-expand"></i>
+                    </button>
+                    <button id="btn-help" class="tool-btn hide-narrow" title="使用說明與快速鍵（?）">
+                        <i class="fa-regular fa-keyboard"></i>
+                    </button>
+                </div>
             </header>
 
             <!-- Loading State -->
@@ -68,94 +101,177 @@
                 <p>載入題庫中...</p>
             </div>
 
-            <!-- Quiz Container -->
-            <div id="quiz-container" class="quiz-container hidden">
-                
-                <div class="question-header">
-                    <span class="badge" id="badge-question-id">Question 000</span>
-                    <h1 id="question-title" class="question-title">題目載入中...</h1>
-                    <div id="question-meta" class="question-meta"></div>
-                    <div id="status-badge" class="status-badge hidden">
-                        <!-- e.g. "答對" / "答錯" -->
-                    </div>
-                </div>
+            <div class="content">
+                <!-- Quiz Container -->
+                <div id="quiz-container" class="quiz-container hidden">
 
-                <div class="question-body">
-                    <div class="question-image-container glass-panel">
-                        <img id="question-img" src="" alt="題目圖片" class="img-fluid">
-                    </div>
-                </div>
-
-                <div id="options-container" class="options-container">
-                    <h3 class="section-subtitle">請選擇您的答案：</h3>
-                    <div id="options-grid" class="options-grid">
-                        <!-- Options injected by JS -->
-                    </div>
-                </div>
-
-                <!-- Short Answer Section (Hidden by default) -->
-                <div id="short-answer-container" class="short-answer-container hidden">
-                    <h3 class="section-subtitle">請輸入您的答案：</h3>
-                    <div class="sa-input-group glass-panel">
-                        <input type="text" id="sa-input" class="sa-input" placeholder="在這裡輸入答案...">
-                        <button id="btn-sa-submit" class="btn-primary">
-                            確認提交 <i class="fa-solid fa-paper-plane"></i>
-                        </button>
-                    </div>
-                </div>
-
-                <!-- Explanation Section (Hidden by default) -->
-                <div id="explanation-container" class="explanation-container hidden slide-up">
-                    <h3 class="section-subtitle"><i class="fa-regular fa-lightbulb"></i> 解答與說明</h3>
-                    <div class="explanation-content glass-panel">
-                        <p id="explanation-text" class="explanation-text"></p>
-                        <img id="explanation-img" src="" alt="解答截圖" class="img-fluid hidden">
-                    </div>
-                </div>
-
-                <!-- Bottom Controls -->
-                <div class="bottom-controls">
-                    <button id="btn-prev" class="btn-nav hidden">
-                        <i class="fa-solid fa-arrow-left"></i> 上一題
-                    </button>
-                    <div class="spacer"></div>
-                    <button id="btn-next" class="btn-nav btn-primary hidden">
-                        下一題 <i class="fa-solid fa-arrow-right"></i>
-                    </button>
-                </div>
-            </div>
-
-            <!-- Empty Filter Result -->
-            <div id="empty-screen" class="finish-screen hidden fade-in">
-                <div class="finish-card glass-panel">
-                    <div class="finish-icon">🔍</div>
-                    <h2>沒有符合的題目</h2>
-                    <p>請調整左側的年份、年級或難度篩選。</p>
-                </div>
-            </div>
-
-            <!-- Finish Screen -->
-            <div id="finish-screen" class="finish-screen hidden fade-in">
-                <div class="finish-card glass-panel">
-                    <div class="finish-icon">🏆</div>
-                    <h2>練習完成！</h2>
-                    <p>您已經完成了本次題庫的所有練習。</p>
-                    <div class="final-score-container">
-                        <div class="score-circle">
-                            <span id="final-correct">0</span>
-                            <span class="divider">/</span>
-                            <span id="final-total">0</span>
+                    <section class="pane pane-question">
+                        <div id="question-header" class="question-header">
+                            <h1 id="question-title" class="question-title">題目載入中...</h1>
+                            <div id="question-meta" class="question-meta"></div>
+                            <button id="btn-copy-link" class="btn-link" title="複製這一題的連結">
+                                <i class="fa-solid fa-link"></i> 複製本題連結
+                            </button>
                         </div>
-                        <p class="score-label">答對題數</p>
+
+                        <div class="question-image-container glass-panel">
+                            <div id="question-stage" class="stage">
+                                <div class="stage-inner">
+                                    <img id="question-img" alt="題目圖片" draggable="false">
+                                    <canvas class="ink"></canvas>
+                                </div>
+                                <div class="stage-tools">
+                                    <button data-act="out" title="縮小圖片"><i class="fa-solid fa-magnifying-glass-minus"></i></button>
+                                    <span data-zoom-label>100%</span>
+                                    <button data-act="in" title="放大圖片（也可用 Ctrl＋滾輪、雙指縮放或雙擊）"><i class="fa-solid fa-magnifying-glass-plus"></i></button>
+                                    <button data-act="reset" title="還原大小"><i class="fa-solid fa-compress"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="pane pane-answer">
+                        <div id="status-badge" class="status-badge hidden">
+                            <!-- e.g. "答對" / "答錯" -->
+                        </div>
+
+                        <div id="options-container" class="options-container">
+                            <h3 id="options-subtitle" class="section-subtitle">請選擇您的答案：</h3>
+                            <div id="options-grid" class="options-grid">
+                                <!-- Options injected by JS -->
+                            </div>
+                        </div>
+
+                        <!-- Short Answer Section (Hidden by default) -->
+                        <div id="short-answer-container" class="short-answer-container hidden">
+                            <h3 id="sa-subtitle" class="section-subtitle">請輸入您的答案：</h3>
+                            <div class="sa-input-group glass-panel">
+                                <input type="text" id="sa-input" class="sa-input" placeholder="在這裡輸入答案..." autocomplete="off">
+                                <button id="btn-sa-submit" class="btn-primary">
+                                    確認提交 <i class="fa-solid fa-paper-plane"></i>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="answer-actions">
+                            <button id="btn-reveal" class="btn-primary hidden">
+                                <i class="fa-solid fa-eye"></i> 公布答案
+                            </button>
+                            <button id="btn-retry" class="btn-secondary hidden">
+                                <i class="fa-solid fa-rotate-left"></i> 重新作答
+                            </button>
+                        </div>
+
+                        <!-- Explanation Section (Hidden by default) -->
+                        <div id="explanation-container" class="explanation-container hidden slide-up">
+                            <h3 class="section-subtitle"><i class="fa-regular fa-lightbulb"></i> 解答與說明</h3>
+                            <div class="explanation-content glass-panel">
+                                <p id="explanation-text" class="explanation-text"></p>
+                                <div id="explanation-stage" class="stage">
+                                    <div class="stage-inner">
+                                        <img id="explanation-img" alt="解答截圖" draggable="false">
+                                        <canvas class="ink"></canvas>
+                                    </div>
+                                    <div class="stage-tools">
+                                        <button data-act="out" title="縮小圖片"><i class="fa-solid fa-magnifying-glass-minus"></i></button>
+                                        <span data-zoom-label>100%</span>
+                                        <button data-act="in" title="放大圖片"><i class="fa-solid fa-magnifying-glass-plus"></i></button>
+                                        <button data-act="reset" title="還原大小"><i class="fa-solid fa-compress"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Bottom Controls -->
+                        <div class="bottom-controls">
+                            <button id="btn-prev" class="btn-nav hidden">
+                                <i class="fa-solid fa-arrow-left"></i> 上一題
+                            </button>
+                            <div class="spacer"></div>
+                            <button id="btn-next" class="btn-nav btn-primary hidden">
+                                下一題 <i class="fa-solid fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </section>
+                </div>
+
+                <!-- Empty Filter Result -->
+                <div id="empty-screen" class="finish-screen hidden fade-in">
+                    <div class="finish-card glass-panel">
+                        <div class="finish-icon">🔍</div>
+                        <h2>沒有符合的題目</h2>
+                        <p>請調整左側的年份、年級、難度或作答狀態篩選。</p>
                     </div>
-                    <button id="btn-review-all" class="btn-primary mt-4">
-                        <i class="fa-solid fa-magnifying-glass"></i> 回頭檢閱題目
-                    </button>
+                </div>
+
+                <!-- Finish Screen -->
+                <div id="finish-screen" class="finish-screen hidden fade-in">
+                    <div class="finish-card glass-panel">
+                        <div class="finish-icon">🏆</div>
+                        <h2>練習完成！</h2>
+                        <p>您已經完成了本次題庫的所有練習。</p>
+                        <div class="final-score-container">
+                            <div id="score-circle" class="score-circle">
+                                <span id="final-correct">0</span>
+                                <span class="divider">/</span>
+                                <span id="final-total">0</span>
+                            </div>
+                            <p class="score-label">答對題數</p>
+                        </div>
+                        <div class="finish-actions">
+                            <button id="btn-review-all" class="btn-primary">
+                                <i class="fa-solid fa-magnifying-glass"></i> 回頭檢閱題目
+                            </button>
+                            <button id="btn-practice-wrong" class="btn-secondary">
+                                <i class="fa-solid fa-rotate-left"></i> 練習答錯的題目
+                            </button>
+                        </div>
+                    </div>
                 </div>
             </div>
 
         </main>
     </div>
+
+    <!-- Pen Palette -->
+    <div id="pen-palette" class="pen-palette hidden" role="toolbar" aria-label="畫筆">
+        <button class="swatch active" data-color="#ef4444" style="--c:#ef4444" title="紅筆"></button>
+        <button class="swatch" data-color="#2563eb" style="--c:#2563eb" title="藍筆"></button>
+        <button class="swatch" data-color="#16a34a" style="--c:#16a34a" title="綠筆"></button>
+        <button class="swatch" data-color="#0f172a" style="--c:#0f172a" title="黑筆"></button>
+        <button class="swatch highlighter" data-tool="highlighter" style="--c:#facc15" title="螢光筆"><i class="fa-solid fa-highlighter"></i></button>
+        <span class="palette-sep"></span>
+        <button id="btn-pen-undo" class="palette-btn" title="復原（Ctrl＋Z）"><i class="fa-solid fa-rotate-left"></i></button>
+        <button id="btn-pen-clear" class="palette-btn" title="清除本題標註"><i class="fa-solid fa-trash-can"></i></button>
+        <button id="btn-pen-close" class="palette-btn" title="收起畫筆（Esc）"><i class="fa-solid fa-xmark"></i></button>
+    </div>
+
+    <!-- Help -->
+    <div id="help-overlay" class="overlay hidden">
+        <div class="help-card glass-panel" role="dialog" aria-modal="true" aria-labelledby="help-title">
+            <button id="btn-help-close" class="btn-icon help-close" title="關閉（Esc）"><i class="fa-solid fa-xmark"></i></button>
+            <h2 id="help-title">使用說明</h2>
+            <h3>上課廣播建議</h3>
+            <p>開啟「教學」＋「並排」＋「整頁」，再按全螢幕：題目在左、作答與解說在右，學生看得到整題。點選項只會標示，不會記分；按「公布答案」才揭曉。</p>
+            <p>要講解細節時，在圖上按 Ctrl＋滾輪（觸控板或觸控螢幕可用雙指）放大，拖曳移動；雙擊可快速放大／還原。</p>
+            <h3>快速鍵</h3>
+            <dl class="shortcut-list">
+                <dt><kbd>←</kbd> <kbd>→</kbd></dt><dd>上一題／下一題（簡報筆的翻頁鍵也可以）</dd>
+                <dt><kbd>A</kbd>–<kbd>E</kbd> 或 <kbd>1</kbd>–<kbd>5</kbd></dt><dd>選擇選項</dd>
+                <dt><kbd>空白鍵</kbd></dt><dd>教學模式：公布／隱藏答案</dd>
+                <dt><kbd>+</kbd> <kbd>-</kbd> <kbd>0</kbd></dt><dd>放大、縮小、還原字級</dd>
+                <dt><kbd>L</kbd></dt><dd>左右並排</dd>
+                <dt><kbd>H</kbd></dt><dd>整頁顯示</dd>
+                <dt><kbd>P</kbd></dt><dd>畫筆（<kbd>Ctrl</kbd>＋<kbd>Z</kbd> 復原）</dd>
+                <dt><kbd>T</kbd></dt><dd>教學模式</dd>
+                <dt><kbd>M</kbd></dt><dd>顯示／隱藏題目列表</dd>
+                <dt><kbd>F</kbd></dt><dd>全螢幕</dd>
+                <dt><kbd>Esc</kbd></dt><dd>收起畫筆、還原圖片大小</dd>
+            </dl>
+        </div>
+    </div>
+
+    <div id="toast" class="toast hidden" role="status"></div>
 
     <script src="app.js" type="module"></script>
 </body>
