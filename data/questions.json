@@ -217,5 +217,5148 @@
     "options": [],
     "correct_answer": "1",
     "explanation_image": "images/2022-05/explanation.webp"
+  },
+  {
+    "id": "2013-Q01",
+    "title": "幫海貍爺爺設置密碼",
+    "type": "multiple_choice",
+    "year": 2013,
+    "number": 1,
+    "levels": {
+      "Junior": "易",
+      "Senior": "易"
+    },
+    "question_image": "images/2013-Q01/question.webp?v=c3f02819",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "B",
+    "explanation_image": "images/2013-Q01/explanation.webp?v=65c64b48",
+    "auto": true
+  },
+  {
+    "id": "2013-Q02",
+    "title": "轉盤玩具",
+    "type": "multiple_choice",
+    "year": 2013,
+    "number": 2,
+    "levels": {
+      "Junior": "易",
+      "Senior": "易"
+    },
+    "question_image": "images/2013-Q02/question.webp?v=98a45f6c",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "C",
+    "explanation_image": "images/2013-Q02/explanation.webp?v=de6d3e0e",
+    "auto": true
+  },
+  {
+    "id": "2013-Q03",
+    "title": "撿蘋果",
+    "type": "multiple_choice",
+    "year": 2013,
+    "number": 3,
+    "levels": {
+      "Junior": "易",
+      "Senior": "易"
+    },
+    "question_image": "images/2013-Q03/question.webp?v=9b4427c0",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "D",
+    "explanation_image": "images/2013-Q03/explanation.webp?v=5a85434e",
+    "auto": true
+  },
+  {
+    "id": "2013-Q04",
+    "title": "摩天輪",
+    "type": "multiple_choice",
+    "year": 2013,
+    "number": 4,
+    "levels": {
+      "Junior": "易",
+      "Senior": "易"
+    },
+    "question_image": "images/2013-Q04/question.webp?v=e1d0539e",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "D",
+    "explanation_image": "images/2013-Q04/explanation.webp?v=9fc37614",
+    "auto": true
+  },
+  {
+    "id": "2013-Q05",
+    "title": "機場",
+    "type": "multiple_choice",
+    "year": 2013,
+    "number": 5,
+    "levels": {
+      "Junior": "中",
+      "Senior": "易"
+    },
+    "question_image": "images/2013-Q05/question.webp?v=786dda91",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "B",
+    "explanation_image": "images/2013-Q05/explanation.webp?v=11a46e53",
+    "auto": true
+  },
+  {
+    "id": "2013-Q06",
+    "title": "影像解碼",
+    "type": "multiple_choice",
+    "year": 2013,
+    "number": 6,
+    "levels": {
+      "Junior": "中",
+      "Senior": "易"
+    },
+    "question_image": "images/2013-Q06/question.webp?v=6b08b833",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      }
+    ],
+    "correct_answer": "C",
+    "explanation_image": "images/2013-Q06/explanation.webp?v=e5edc422",
+    "auto": true
+  },
+  {
+    "id": "2013-Q07",
+    "title": "骰子",
+    "type": "multiple_choice",
+    "year": 2013,
+    "number": 7,
+    "levels": {
+      "Junior": "中",
+      "Senior": "中"
+    },
+    "question_image": "images/2013-Q07/question.webp?v=ad26338f",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "D",
+    "explanation_image": "images/2013-Q07/explanation.webp?v=1d74a88c",
+    "auto": true
+  },
+  {
+    "id": "2013-Q08",
+    "title": "瞻之在前，忽焉在後",
+    "type": "multiple_choice",
+    "year": 2013,
+    "number": 8,
+    "levels": {
+      "Junior": "中",
+      "Senior": "中"
+    },
+    "question_image": "images/2013-Q08/question.webp?v=8b0528d3",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "D",
+    "explanation_image": "images/2013-Q08/explanation.webp?v=058716f0",
+    "auto": true
+  },
+  {
+    "id": "2013-Q09",
+    "title": "海狸園丁",
+    "type": "multiple_choice",
+    "year": 2013,
+    "number": 9,
+    "levels": {
+      "Junior": "中",
+      "Senior": "中"
+    },
+    "question_image": "images/2013-Q09/question.webp?v=5c103768",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "D",
+    "explanation_image": "images/2013-Q09/explanation.webp?v=3dd9ea2f",
+    "auto": true
+  },
+  {
+    "id": "2013-Q10",
+    "title": "拜訪朋友",
+    "type": "multiple_choice",
+    "year": 2013,
+    "number": 10,
+    "levels": {
+      "Junior": "難",
+      "Senior": "中"
+    },
+    "question_image": "images/2013-Q10/question.webp?v=029d99a8",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "C",
+    "explanation_image": "images/2013-Q10/explanation.webp?v=64a50cab",
+    "auto": true
+  },
+  {
+    "id": "2013-Q11",
+    "title": "從A 到C",
+    "type": "multiple_choice",
+    "year": 2013,
+    "number": 11,
+    "levels": {
+      "Junior": "難",
+      "Senior": "難"
+    },
+    "question_image": "images/2013-Q11/question.webp?v=1fd766d9",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "B",
+    "explanation_image": "images/2013-Q11/explanation.webp?v=e38a8491",
+    "auto": true
+  },
+  {
+    "id": "2013-Q12",
+    "title": "中毒的伺服器",
+    "type": "multiple_choice",
+    "year": 2013,
+    "number": 12,
+    "levels": {
+      "Junior": "難",
+      "Senior": "難"
+    },
+    "question_image": "images/2013-Q12/question.webp?v=e45a881a",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "C",
+    "explanation_image": "images/2013-Q12/explanation.webp?v=ad09f3d2",
+    "auto": true
+  },
+  {
+    "id": "2013-Q13",
+    "title": "河道檢驗",
+    "type": "multiple_choice",
+    "year": 2013,
+    "number": 13,
+    "levels": {
+      "Junior": "難",
+      "Senior": "難"
+    },
+    "question_image": "images/2013-Q13/question.webp?v=d84de81e",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "D",
+    "explanation_image": "images/2013-Q13/explanation.webp?v=a24b0324",
+    "auto": true
+  },
+  {
+    "id": "2013-Q14",
+    "title": "古代火星文",
+    "type": "multiple_choice",
+    "year": 2013,
+    "number": 14,
+    "levels": {
+      "Junior": "難",
+      "Senior": "難"
+    },
+    "question_image": "images/2013-Q14/question.webp?v=94afd8c6",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "B",
+    "explanation_image": "images/2013-Q14/explanation.webp?v=2fce7b6b",
+    "auto": true
+  },
+  {
+    "id": "2013-Q15",
+    "title": "遊戲",
+    "type": "multiple_choice",
+    "year": 2013,
+    "number": 15,
+    "levels": {
+      "Junior": "難",
+      "Senior": "難"
+    },
+    "question_image": "images/2013-Q15/question.webp?v=039919c1",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "C",
+    "explanation_image": "images/2013-Q15/explanation.webp?v=8bec3cad",
+    "auto": true
+  },
+  {
+    "id": "2014-Q01",
+    "title": "翻煎餅",
+    "type": "multiple_choice",
+    "year": 2014,
+    "number": 1,
+    "levels": {
+      "Junior": "中",
+      "Senior": "易"
+    },
+    "question_image": "images/2014-Q01/question.webp?v=33c8f5a2",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "A",
+    "explanation_image": "images/2014-Q01/explanation.webp?v=41d40f2c",
+    "auto": true
+  },
+  {
+    "id": "2014-Q02",
+    "title": "海貍啃樹",
+    "type": "multiple_choice",
+    "year": 2014,
+    "number": 2,
+    "levels": {
+      "Junior": "易",
+      "Senior": "易"
+    },
+    "question_image": "images/2014-Q02/question.webp?v=23d99b70",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "C",
+    "explanation_image": "images/2014-Q02/explanation.webp?v=8f9d6d67",
+    "auto": true
+  },
+  {
+    "id": "2014-Q03",
+    "title": "手機",
+    "type": "multiple_choice",
+    "year": 2014,
+    "number": 3,
+    "levels": {
+      "Junior": "易",
+      "Senior": "易"
+    },
+    "question_image": "images/2014-Q03/question.webp?v=5a4c46cf",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "C",
+    "explanation_image": "images/2014-Q03/explanation.webp?v=13088c9f",
+    "auto": true
+  },
+  {
+    "id": "2014-Q04",
+    "title": "樹林漫步",
+    "type": "multiple_choice",
+    "year": 2014,
+    "number": 4,
+    "levels": {
+      "Junior": "難",
+      "Senior": "難"
+    },
+    "question_image": "images/2014-Q04/question.webp?v=4190a211",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "C",
+    "explanation_image": "images/2014-Q04/explanation.webp?v=32fca1e3",
+    "auto": true
+  },
+  {
+    "id": "2014-Q05",
+    "title": "生日派對",
+    "type": "multiple_choice",
+    "year": 2014,
+    "number": 5,
+    "levels": {
+      "Junior": "難",
+      "Senior": "中"
+    },
+    "question_image": "images/2014-Q05/question.webp?v=a70553f2",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "A",
+    "explanation_image": "images/2014-Q05/explanation.webp?v=aa927f30",
+    "auto": true
+  },
+  {
+    "id": "2014-Q06",
+    "title": "粉刷機器人",
+    "type": "multiple_choice",
+    "year": 2014,
+    "number": 6,
+    "levels": {
+      "Junior": "難",
+      "Senior": "中"
+    },
+    "question_image": "images/2014-Q06/question.webp?v=06d8a60d",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "B",
+    "explanation_image": "images/2014-Q06/explanation.webp?v=74929585",
+    "auto": true
+  },
+  {
+    "id": "2014-Q07",
+    "title": "切割水管",
+    "type": "multiple_choice",
+    "year": 2014,
+    "number": 7,
+    "levels": {
+      "Junior": "難",
+      "Senior": "難"
+    },
+    "question_image": "images/2014-Q07/question.webp?v=7b4df67c",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "B",
+    "explanation_image": "images/2014-Q07/explanation.webp?v=91e4422a",
+    "auto": true
+  },
+  {
+    "id": "2014-Q08",
+    "title": "電話費用",
+    "type": "multiple_choice",
+    "year": 2014,
+    "number": 8,
+    "levels": {
+      "Junior": "中",
+      "Senior": "中"
+    },
+    "question_image": "images/2014-Q08/question.webp?v=8bda21f9",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "D",
+    "explanation_image": "images/2014-Q08/explanation.webp?v=7d6c25ac",
+    "auto": true
+  },
+  {
+    "id": "2014-Q09",
+    "title": "邏輯電路",
+    "type": "multiple_choice",
+    "year": 2014,
+    "number": 9,
+    "levels": {
+      "Junior": "難",
+      "Senior": "中"
+    },
+    "question_image": "images/2014-Q09/question.webp?v=a51fbdac",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "B",
+    "explanation_image": "images/2014-Q09/explanation.webp?v=605399d4",
+    "auto": true
+  },
+  {
+    "id": "2014-Q10",
+    "title": "矩形",
+    "type": "multiple_choice",
+    "year": 2014,
+    "number": 10,
+    "levels": {
+      "Junior": "難",
+      "Senior": "難"
+    },
+    "question_image": "images/2014-Q10/question.webp?v=37f0797b",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "C",
+    "explanation_image": "images/2014-Q10/explanation.webp?v=1a6886a0",
+    "auto": true
+  },
+  {
+    "id": "2014-Q11",
+    "title": "快速直達車",
+    "type": "multiple_choice",
+    "year": 2014,
+    "number": 11,
+    "levels": {
+      "Junior": "難",
+      "Senior": "難"
+    },
+    "question_image": "images/2014-Q11/question.webp?v=e1b975a3",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "A",
+    "explanation_image": "images/2014-Q11/explanation.webp?v=a3446f1b",
+    "auto": true
+  },
+  {
+    "id": "2014-Q12",
+    "title": "海貍珍珠",
+    "type": "short_answer",
+    "year": 2014,
+    "number": 12,
+    "levels": {
+      "Junior": "易"
+    },
+    "question_image": "images/2014-Q12/question.webp?v=7efe9f23",
+    "options": [],
+    "correct_answer": "4",
+    "explanation_image": "images/2014-Q12/explanation.webp?v=d66b888f",
+    "auto": true
+  },
+  {
+    "id": "2014-Q13",
+    "title": "飯店房間號碼",
+    "type": "multiple_choice",
+    "year": 2014,
+    "number": 13,
+    "levels": {
+      "Junior": "難",
+      "Senior": "中"
+    },
+    "question_image": "images/2014-Q13/question.webp?v=6856617a",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "C",
+    "explanation_image": "images/2014-Q13/explanation.webp?v=47b56f11",
+    "auto": true
+  },
+  {
+    "id": "2014-Q14",
+    "title": "二進位計數器",
+    "type": "short_answer",
+    "year": 2014,
+    "number": 14,
+    "levels": {
+      "Junior": "中",
+      "Senior": "易"
+    },
+    "question_image": "images/2014-Q14/question.webp?v=fea35330",
+    "options": [],
+    "correct_answer": "31",
+    "explanation_image": "images/2014-Q14/explanation.webp?v=4ac236fb",
+    "auto": true
+  },
+  {
+    "id": "2014-Q15",
+    "title": "水壩",
+    "type": "multiple_choice",
+    "year": 2014,
+    "number": 15,
+    "levels": {
+      "Junior": "中",
+      "Senior": "易"
+    },
+    "question_image": "images/2014-Q15/question.webp?v=bd433127",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "C",
+    "explanation_image": "images/2014-Q15/explanation.webp?v=5be60aa7",
+    "auto": true
+  },
+  {
+    "id": "2014-Q16",
+    "title": "海貍蓋水壩",
+    "type": "multiple_choice",
+    "year": 2014,
+    "number": 16,
+    "levels": {
+      "Junior": "易"
+    },
+    "question_image": "images/2014-Q16/question.webp?v=7f148e5e",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "C",
+    "explanation_image": "images/2014-Q16/explanation.webp?v=b4bada93",
+    "auto": true
+  },
+  {
+    "id": "2014-Q17",
+    "title": "海貍約翰的秘密訊息",
+    "type": "multiple_choice",
+    "year": 2014,
+    "number": 17,
+    "levels": {
+      "Junior": "易",
+      "Senior": "易"
+    },
+    "question_image": "images/2014-Q17/question.webp?v=104e76ac",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "C",
+    "explanation_image": "images/2014-Q17/explanation.webp?v=f6710322",
+    "auto": true
+  },
+  {
+    "id": "2014-Q18",
+    "title": "奇怪的單字",
+    "type": "multiple_choice",
+    "year": 2014,
+    "number": 18,
+    "levels": {
+      "Junior": "中",
+      "Senior": "易"
+    },
+    "question_image": "images/2014-Q18/question.webp?v=bcac6b68",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "A",
+    "explanation_image": "images/2014-Q18/explanation.webp?v=bd6e9ea6",
+    "auto": true
+  },
+  {
+    "id": "2014-Q19",
+    "title": "圓形與方形",
+    "type": "multiple_choice",
+    "year": 2014,
+    "number": 19,
+    "levels": {
+      "Junior": "難",
+      "Senior": "中"
+    },
+    "question_image": "images/2014-Q19/question.webp?v=7120c2fb",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "C",
+    "explanation_image": "images/2014-Q19/explanation.webp?v=7ca90674",
+    "auto": true
+  },
+  {
+    "id": "2014-Q20",
+    "title": "紅蘿蔔倉庫",
+    "type": "multiple_choice",
+    "year": 2014,
+    "number": 20,
+    "levels": {
+      "Senior": "中"
+    },
+    "question_image": "images/2014-Q20/question.webp?v=8d89118e",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "C",
+    "explanation_image": "images/2014-Q20/explanation.webp?v=825baf56",
+    "auto": true
+  },
+  {
+    "id": "2014-Q21",
+    "title": "新森林時報",
+    "type": "multiple_choice",
+    "year": 2014,
+    "number": 21,
+    "levels": {
+      "Junior": "中",
+      "Senior": "中"
+    },
+    "question_image": "images/2014-Q21/question.webp?v=46140d05",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "C",
+    "explanation_image": "images/2014-Q21/explanation.webp?v=46a8be76",
+    "auto": true
+  },
+  {
+    "id": "2014-Q22",
+    "title": "盜賊密語",
+    "type": "multiple_choice",
+    "year": 2014,
+    "number": 22,
+    "levels": {
+      "Junior": "難",
+      "Senior": "難"
+    },
+    "question_image": "images/2014-Q22/question.webp?v=0f68bd7c",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "B",
+    "explanation_image": "images/2014-Q22/explanation.webp?v=d139823b",
+    "auto": true
+  },
+  {
+    "id": "2014-Q23",
+    "title": "折紙",
+    "type": "multiple_choice",
+    "year": 2014,
+    "number": 23,
+    "levels": {
+      "Junior": "中",
+      "Senior": "易"
+    },
+    "question_image": "images/2014-Q23/question.webp?v=59278d7d",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "B",
+    "explanation_image": "images/2014-Q23/explanation.webp?v=277303d8",
+    "auto": true
+  },
+  {
+    "id": "2014-Q24",
+    "title": "瓢蟲機器人",
+    "type": "multiple_choice",
+    "year": 2014,
+    "number": 24,
+    "levels": {
+      "Junior": "中",
+      "Senior": "易"
+    },
+    "question_image": "images/2014-Q24/question.webp?v=29b89d71",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "C",
+    "explanation_image": "images/2014-Q24/explanation.webp?v=20f94baa",
+    "auto": true
+  },
+  {
+    "id": "2014-Q25",
+    "title": "六角形漫遊（簡易）",
+    "type": "multiple_choice",
+    "year": 2014,
+    "number": 25,
+    "levels": {
+      "Junior": "易",
+      "Senior": "易"
+    },
+    "question_image": "images/2014-Q25/question.webp?v=acaeb155",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "C",
+    "explanation_image": "images/2014-Q25/explanation.webp?v=8549c511",
+    "auto": true
+  },
+  {
+    "id": "2014-Q26",
+    "title": "六角形漫遊（進階）",
+    "type": "multiple_choice",
+    "year": 2014,
+    "number": 26,
+    "levels": {
+      "Junior": "中",
+      "Senior": "易"
+    },
+    "question_image": "images/2014-Q26/question.webp?v=eff117d7",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "D",
+    "explanation_image": "images/2014-Q26/explanation.webp?v=9ee644c1",
+    "auto": true
+  },
+  {
+    "id": "2014-Q27",
+    "title": "會車",
+    "type": "multiple_choice",
+    "year": 2014,
+    "number": 27,
+    "levels": {
+      "Junior": "難",
+      "Senior": "中"
+    },
+    "question_image": "images/2014-Q27/question.webp?v=53c36228",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "D",
+    "explanation_image": "images/2014-Q27/explanation.webp?v=d0cb9865",
+    "auto": true
+  },
+  {
+    "id": "2014-Q28",
+    "title": "海貍的社交網路",
+    "type": "multiple_choice",
+    "year": 2014,
+    "number": 28,
+    "levels": {
+      "Junior": "中",
+      "Senior": "中"
+    },
+    "question_image": "images/2014-Q28/question.webp?v=d0e566da",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "C",
+    "explanation_image": "images/2014-Q28/explanation.webp?v=a0a5850c",
+    "auto": true
+  },
+  {
+    "id": "2014-Q29",
+    "title": "加總區域表",
+    "type": "multiple_choice",
+    "year": 2014,
+    "number": 29,
+    "levels": {
+      "Junior": "難",
+      "Senior": "難"
+    },
+    "question_image": "images/2014-Q29/question.webp?v=3353ebd4",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "C",
+    "explanation_image": "images/2014-Q29/explanation.webp?v=cba37e12",
+    "auto": true
+  },
+  {
+    "id": "2015-Q01",
+    "title": "海狸家族",
+    "type": "multiple_choice",
+    "year": 2015,
+    "number": 1,
+    "levels": {
+      "Junior": "中",
+      "Senior": "易"
+    },
+    "question_image": "images/2015-Q01/question.webp?v=f941b6a6",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "D",
+    "explanation_image": "images/2015-Q01/explanation.webp?v=493c652e",
+    "auto": true
+  },
+  {
+    "id": "2015-Q02",
+    "title": "煙火",
+    "type": "multiple_choice",
+    "year": 2015,
+    "number": 2,
+    "levels": {
+      "Junior": "難",
+      "Senior": "中"
+    },
+    "question_image": "images/2015-Q02/question.webp?v=7c2d9fa0",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      },
+      {
+        "id": "E"
+      }
+    ],
+    "correct_answer": "E",
+    "explanation_image": "images/2015-Q02/explanation.webp?v=b8fad1dc",
+    "auto": true
+  },
+  {
+    "id": "2015-Q03",
+    "title": "QB碼",
+    "type": "multiple_choice",
+    "year": 2015,
+    "number": 3,
+    "levels": {
+      "Junior": "易",
+      "Senior": "易"
+    },
+    "question_image": "images/2015-Q03/question.webp?v=36b36e2c",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "C",
+    "explanation_image": "images/2015-Q03/explanation.webp?v=8ab95bec",
+    "auto": true
+  },
+  {
+    "id": "2015-Q04",
+    "title": "剪刀 石頭 布蜥蜴 史巴克",
+    "type": "multiple_choice",
+    "year": 2015,
+    "number": 4,
+    "levels": {
+      "Junior": "易"
+    },
+    "question_image": "images/2015-Q04/question.webp?v=899b6a01",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      },
+      {
+        "id": "E"
+      }
+    ],
+    "correct_answer": "A",
+    "explanation_image": "images/2015-Q04/explanation.webp?v=2b169461",
+    "auto": true
+  },
+  {
+    "id": "2015-Q05",
+    "title": "動畫",
+    "type": "multiple_choice",
+    "year": 2015,
+    "number": 5,
+    "levels": {
+      "Junior": "易"
+    },
+    "question_image": "images/2015-Q05/question.webp?v=90fada4f",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "D",
+    "explanation_image": "images/2015-Q05/explanation.webp?v=1d7bbed2",
+    "auto": true
+  },
+  {
+    "id": "2015-Q06",
+    "title": "對齊鉛筆",
+    "type": "multiple_choice",
+    "year": 2015,
+    "number": 6,
+    "levels": {
+      "Junior": "中",
+      "Senior": "易"
+    },
+    "question_image": "images/2015-Q06/question.webp?v=4f36f2f2",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "A",
+    "explanation_image": "images/2015-Q06/explanation.webp?v=b42cf8e1",
+    "auto": true
+  },
+  {
+    "id": "2015-Q07",
+    "title": "碗工廠",
+    "type": "short_answer",
+    "year": 2015,
+    "number": 7,
+    "levels": {
+      "Junior": "中",
+      "Senior": "易"
+    },
+    "question_image": "images/2015-Q07/question.webp?v=4585398b",
+    "options": [],
+    "correct_answer": "4",
+    "explanation_image": "images/2015-Q07/explanation.webp?v=9009972a",
+    "auto": true
+  },
+  {
+    "id": "2015-Q08",
+    "title": "二序列",
+    "type": "multiple_choice",
+    "year": 2015,
+    "number": 8,
+    "levels": {
+      "Junior": "中"
+    },
+    "question_image": "images/2015-Q08/question.webp?v=2b4b2d26",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "B",
+    "explanation_image": "images/2015-Q08/explanation.webp?v=de4387c5",
+    "auto": true
+  },
+  {
+    "id": "2015-Q09",
+    "title": "香辣茄汁雞",
+    "type": "multiple_choice",
+    "year": 2015,
+    "number": 9,
+    "levels": {
+      "Senior": "中"
+    },
+    "question_image": "images/2015-Q09/question.webp?v=5782245e",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "D",
+    "explanation_image": "images/2015-Q09/explanation.webp?v=ce966721",
+    "auto": true
+  },
+  {
+    "id": "2015-Q10",
+    "title": "轉彎",
+    "type": "multiple_choice",
+    "year": 2015,
+    "number": 10,
+    "levels": {
+      "Junior": "難",
+      "Senior": "中"
+    },
+    "question_image": "images/2015-Q10/question.webp?v=2cb0b7ac",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "B",
+    "explanation_image": "images/2015-Q10/explanation.webp?v=6a759e2b",
+    "auto": true
+  },
+  {
+    "id": "2015-Q11",
+    "title": "海狸鍊金師",
+    "type": "multiple_choice",
+    "year": 2015,
+    "number": 11,
+    "levels": {
+      "Junior": "難",
+      "Senior": "中"
+    },
+    "question_image": "images/2015-Q11/question.webp?v=328110be",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "C",
+    "explanation_image": "images/2015-Q11/explanation.webp?v=eb974333",
+    "auto": true
+  },
+  {
+    "id": "2015-Q12",
+    "title": "棒棒糖",
+    "type": "short_answer",
+    "year": 2015,
+    "number": 12,
+    "levels": {
+      "Junior": "難",
+      "Senior": "難"
+    },
+    "question_image": "images/2015-Q12/question.webp?v=f6ccec69",
+    "options": [],
+    "correct_answer": "196",
+    "explanation_image": "images/2015-Q12/explanation.webp?v=059ea572",
+    "auto": true
+  },
+  {
+    "id": "2015-Q13",
+    "title": "間諜",
+    "type": "short_answer",
+    "year": 2015,
+    "number": 13,
+    "levels": {
+      "Senior": "難"
+    },
+    "question_image": "images/2015-Q13/question.webp?v=da614808",
+    "options": [],
+    "correct_answer": "4",
+    "explanation_image": "images/2015-Q13/explanation.webp?v=4967bba6",
+    "auto": true
+  },
+  {
+    "id": "2015-Q14",
+    "title": "海賊",
+    "type": "multiple_choice",
+    "year": 2015,
+    "number": 14,
+    "levels": {
+      "Senior": "難"
+    },
+    "question_image": "images/2015-Q14/question.webp?v=621d729e",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "D",
+    "explanation_image": "images/2015-Q14/explanation.webp?v=9b2cf928",
+    "auto": true
+  },
+  {
+    "id": "2015-Q15",
+    "title": "繪圖機器人",
+    "type": "multiple_choice",
+    "year": 2015,
+    "number": 15,
+    "levels": {
+      "Junior": "難"
+    },
+    "question_image": "images/2015-Q15/question.webp?v=73b3f4c1",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "D",
+    "explanation_image": "images/2015-Q15/explanation.webp?v=0252e652",
+    "auto": true
+  },
+  {
+    "id": "2015-Q16",
+    "title": "畫線機器人",
+    "type": "multiple_choice",
+    "year": 2015,
+    "number": 16,
+    "levels": {
+      "Junior": "難",
+      "Senior": "難"
+    },
+    "question_image": "images/2015-Q16/question.webp?v=91d46cfc",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "C",
+    "explanation_image": "images/2015-Q16/explanation.webp?v=734a8fb2",
+    "auto": true
+  },
+  {
+    "id": "2015-Q17",
+    "title": "劇院",
+    "type": "multiple_choice",
+    "year": 2015,
+    "number": 17,
+    "levels": {
+      "Junior": "中",
+      "Senior": "中"
+    },
+    "question_image": "images/2015-Q17/question.webp?v=f94a3aee",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "C",
+    "explanation_image": "images/2015-Q17/explanation.webp?v=5d764de9",
+    "auto": true
+  },
+  {
+    "id": "2015-Q18",
+    "title": "搜集木頭",
+    "type": "multiple_choice",
+    "year": 2015,
+    "number": 18,
+    "levels": {
+      "Junior": "中",
+      "Senior": "易"
+    },
+    "question_image": "images/2015-Q18/question.webp?v=cbb671e0",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "B",
+    "explanation_image": "images/2015-Q18/explanation.webp?v=c8c002b3",
+    "auto": true
+  },
+  {
+    "id": "2015-Q19",
+    "title": "撿石頭",
+    "type": "multiple_choice",
+    "year": 2015,
+    "number": 19,
+    "levels": {
+      "Senior": "難"
+    },
+    "question_image": "images/2015-Q19/question.webp?v=cebb2f85",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "C",
+    "explanation_image": "images/2015-Q19/explanation.webp?v=f47f088d",
+    "auto": true
+  },
+  {
+    "id": "2015-Q20",
+    "title": "羅盤",
+    "type": "short_answer",
+    "year": 2015,
+    "number": 20,
+    "levels": {
+      "Junior": "易"
+    },
+    "question_image": "images/2015-Q20/question.webp?v=a3d4ac47",
+    "options": [],
+    "correct_answer": "C",
+    "explanation_image": "images/2015-Q20/explanation.webp?v=009d62d6",
+    "auto": true
+  },
+  {
+    "id": "2015-Q21",
+    "title": "越野賽",
+    "type": "multiple_choice",
+    "year": 2015,
+    "number": 21,
+    "levels": {
+      "Junior": "易",
+      "Senior": "易"
+    },
+    "question_image": "images/2015-Q21/question.webp?v=1ffc7b0d",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "B",
+    "explanation_image": "images/2015-Q21/explanation.webp?v=4cd3ba72",
+    "auto": true
+  },
+  {
+    "id": "2016-Q01",
+    "title": "靠右走機器人",
+    "type": "multiple_choice",
+    "year": 2016,
+    "number": 1,
+    "levels": {
+      "Benjamin": "易",
+      "Cadet": "易"
+    },
+    "question_image": "images/2016-Q01/question.webp?v=28f28573",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      },
+      {
+        "id": "E"
+      }
+    ],
+    "correct_answer": "D",
+    "explanation_image": "images/2016-Q01/explanation.webp?v=7c3c3f33",
+    "auto": true
+  },
+  {
+    "id": "2016-Q02",
+    "title": "把小偷揪出來",
+    "type": "multiple_choice",
+    "year": 2016,
+    "number": 2,
+    "levels": {
+      "Junior": "中",
+      "Cadet": "易",
+      "Senior": "易"
+    },
+    "question_image": "images/2016-Q02/question.webp?v=af10f07c",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "A",
+    "explanation_image": "images/2016-Q02/explanation.webp?v=f1aa70ab",
+    "auto": true
+  },
+  {
+    "id": "2016-Q03",
+    "title": "消防義工",
+    "type": "multiple_choice",
+    "year": 2016,
+    "number": 3,
+    "levels": {
+      "Benjamin": "難",
+      "Cadet": "中"
+    },
+    "question_image": "images/2016-Q03/question.webp?v=a6775b25",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "C",
+    "explanation_image": "images/2016-Q03/explanation.webp?v=0b748a84",
+    "auto": true
+  },
+  {
+    "id": "2016-Q04",
+    "title": "算式簡化",
+    "type": "multiple_choice",
+    "year": 2016,
+    "number": 4,
+    "levels": {
+      "Junior": "難",
+      "Senior": "中"
+    },
+    "question_image": "images/2016-Q04/question.webp?v=547cd0e4",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "D",
+    "explanation_image": "images/2016-Q04/explanation.webp?v=ff90985c",
+    "auto": true
+  },
+  {
+    "id": "2016-Q05",
+    "title": "許願蠟蠋",
+    "type": "multiple_choice",
+    "year": 2016,
+    "number": 5,
+    "levels": {
+      "Benjamin": "中",
+      "Junior": "易",
+      "Cadet": "中"
+    },
+    "question_image": "images/2016-Q05/question.webp?v=59c3a31e",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "C",
+    "explanation_image": "images/2016-Q05/explanation.webp?v=dcef595e",
+    "auto": true
+  },
+  {
+    "id": "2016-Q06",
+    "title": "派對彩帶",
+    "type": "multiple_choice",
+    "year": 2016,
+    "number": 6,
+    "levels": {
+      "Junior": "中",
+      "Cadet": "難",
+      "Senior": "易"
+    },
+    "question_image": "images/2016-Q06/question.webp?v=7eeb497f",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "A",
+    "explanation_image": "images/2016-Q06/explanation.webp?v=2a3d6796",
+    "auto": true
+  },
+  {
+    "id": "2016-Q07",
+    "title": "運送沙包",
+    "type": "short_answer",
+    "year": 2016,
+    "number": 7,
+    "levels": {
+      "Cadet": "難"
+    },
+    "question_image": "images/2016-Q07/question.webp?v=c13938bc",
+    "options": [],
+    "correct_answer": "4",
+    "explanation_image": "images/2016-Q07/explanation.webp?v=88c79010",
+    "auto": true
+  },
+  {
+    "id": "2016-Q08",
+    "title": "賽格威",
+    "type": "multiple_choice",
+    "year": 2016,
+    "number": 8,
+    "levels": {
+      "Junior": "難",
+      "Senior": "中"
+    },
+    "question_image": "images/2016-Q08/question.webp?v=9c447569",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "B",
+    "explanation_image": "images/2016-Q08/explanation.webp?v=aa5f19d1",
+    "auto": true
+  },
+  {
+    "id": "2016-Q09",
+    "title": "自動駕駛的計程車",
+    "type": "short_answer",
+    "year": 2016,
+    "number": 9,
+    "levels": {
+      "Junior": "中",
+      "Cadet": "難",
+      "Senior": "易"
+    },
+    "question_image": "images/2016-Q09/question.webp?v=e82563d5",
+    "options": [],
+    "correct_answer": "EFFEA",
+    "explanation_image": "images/2016-Q09/explanation.webp?v=3e6e013b",
+    "auto": true
+  },
+  {
+    "id": "2016-Q10",
+    "title": "烤焦糖蛋糕",
+    "type": "multiple_choice",
+    "year": 2016,
+    "number": 10,
+    "levels": {
+      "Benjamin": "易",
+      "Cadet": "易"
+    },
+    "question_image": "images/2016-Q10/question.webp?v=4341ff49",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "B",
+    "explanation_image": "images/2016-Q10/explanation.webp?v=d4d0b183",
+    "auto": true
+  },
+  {
+    "id": "2016-Q11",
+    "title": "握握手",
+    "type": "short_answer",
+    "year": 2016,
+    "number": 11,
+    "levels": {
+      "Junior": "難",
+      "Senior": "中"
+    },
+    "question_image": "images/2016-Q11/question.webp?v=0128c9ae",
+    "options": [],
+    "correct_answer": "29",
+    "explanation_image": "images/2016-Q11/explanation.webp?v=e875cfbd",
+    "auto": true
+  },
+  {
+    "id": "2016-Q12",
+    "title": "倉庫機器人",
+    "type": "multiple_choice",
+    "year": 2016,
+    "number": 12,
+    "levels": {
+      "Benjamin": "難",
+      "Junior": "易",
+      "Cadet": "中"
+    },
+    "question_image": "images/2016-Q12/question.webp?v=81716c2e",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "B",
+    "explanation_image": "images/2016-Q12/explanation.webp?v=4a2b85b2",
+    "auto": true
+  },
+  {
+    "id": "2016-Q13",
+    "title": "摺紙骰子",
+    "type": "multiple_choice",
+    "year": 2016,
+    "number": 13,
+    "levels": {
+      "Benjamin": "難",
+      "Cadet": "中"
+    },
+    "question_image": "images/2016-Q13/question.webp?v=478322dc",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "C",
+    "explanation_image": "images/2016-Q13/explanation.webp?v=aa783c12",
+    "auto": true
+  },
+  {
+    "id": "2016-Q14",
+    "title": "聊天順序",
+    "type": "short_answer",
+    "year": 2016,
+    "number": 14,
+    "levels": {
+      "Benjamin": "難",
+      "Junior": "易",
+      "Cadet": "中",
+      "Senior": "易"
+    },
+    "question_image": "images/2016-Q14/question.webp?v=1aea9ff5",
+    "options": [],
+    "correct_answer": "小萱奇哥小愛戴哥小蘿",
+    "explanation_image": "images/2016-Q14/explanation.webp?v=1cced31f",
+    "auto": true
+  },
+  {
+    "id": "2016-Q15",
+    "title": "紅藍彈珠遊戲",
+    "type": "short_answer",
+    "year": 2016,
+    "number": 15,
+    "levels": {
+      "Junior": "難",
+      "Senior": "難"
+    },
+    "question_image": "images/2016-Q15/question.webp?v=4523e09b",
+    "options": [],
+    "correct_answer": "5",
+    "explanation_image": "images/2016-Q15/explanation.webp?v=da5de06f",
+    "auto": true
+  },
+  {
+    "id": "2016-Q16",
+    "title": "松果射擊遊戲",
+    "type": "multiple_choice",
+    "year": 2016,
+    "number": 16,
+    "levels": {
+      "Senior": "難"
+    },
+    "question_image": "images/2016-Q16/question.webp?v=bf123495",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "C",
+    "explanation_image": "images/2016-Q16/explanation.webp?v=d8262377",
+    "auto": true
+  },
+  {
+    "id": "2016-Q17",
+    "title": "魔法藥劑",
+    "type": "multiple_choice",
+    "year": 2016,
+    "number": 17,
+    "levels": {
+      "Benjamin": "難",
+      "Junior": "易",
+      "Cadet": "中",
+      "Senior": "易"
+    },
+    "question_image": "images/2016-Q17/question.webp?v=27f82d0d",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      },
+      {
+        "id": "E"
+      }
+    ],
+    "correct_answer": "D",
+    "explanation_image": "images/2016-Q17/explanation.webp?v=4d8f452e",
+    "auto": true
+  },
+  {
+    "id": "2016-Q18",
+    "title": "拼接玩具",
+    "type": "multiple_choice",
+    "year": 2016,
+    "number": 18,
+    "levels": {
+      "Benjamin": "中",
+      "Cadet": "易"
+    },
+    "question_image": "images/2016-Q18/question.webp?v=0bcaeb36",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "A",
+    "explanation_image": "images/2016-Q18/explanation.webp?v=835e9d3e",
+    "auto": true
+  },
+  {
+    "id": "2016-Q19",
+    "title": "木筏牌照",
+    "type": "multiple_choice",
+    "year": 2016,
+    "number": 19,
+    "levels": {
+      "Benjamin": "難",
+      "Junior": "中",
+      "Senior": "易"
+    },
+    "question_image": "images/2016-Q19/question.webp?v=b8766961",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "B",
+    "explanation_image": "images/2016-Q19/explanation.webp?v=1ca44fa2",
+    "auto": true
+  },
+  {
+    "id": "2016-Q20",
+    "title": "編碼掃描機",
+    "type": "multiple_choice",
+    "year": 2016,
+    "number": 20,
+    "levels": {
+      "Cadet": "難"
+    },
+    "question_image": "images/2016-Q20/question.webp?v=9a725430",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "D",
+    "explanation_image": "images/2016-Q20/explanation.webp?v=411b1d87",
+    "auto": true
+  },
+  {
+    "id": "2016-Q21",
+    "title": "四線條碼編碼系統",
+    "type": "short_answer",
+    "year": 2016,
+    "number": 21,
+    "levels": {
+      "Junior": "難",
+      "Senior": "難"
+    },
+    "question_image": "images/2016-Q21/question.webp?v=26260430",
+    "options": [],
+    "correct_answer": "BC16",
+    "explanation_image": "images/2016-Q21/explanation.webp?v=5d741d44",
+    "auto": true
+  },
+  {
+    "id": "2016-Q22",
+    "title": "魔法滾筒",
+    "type": "multiple_choice",
+    "year": 2016,
+    "number": 22,
+    "levels": {
+      "Benjamin": "易",
+      "Cadet": "易"
+    },
+    "question_image": "images/2016-Q22/question.webp?v=f763ee44",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "B",
+    "explanation_image": "images/2016-Q22/explanation.webp?v=7cf04002",
+    "auto": true
+  },
+  {
+    "id": "2016-Q23",
+    "title": "中值濾波",
+    "type": "multiple_choice",
+    "year": 2016,
+    "number": 23,
+    "levels": {
+      "Senior": "難"
+    },
+    "question_image": "images/2016-Q23/question.webp?v=76aae2f0",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "A",
+    "explanation_image": "images/2016-Q23/explanation.webp?v=e1b1ef9f",
+    "auto": true
+  },
+  {
+    "id": "2016-Q24",
+    "title": "公園清潔",
+    "type": "multiple_choice",
+    "year": 2016,
+    "number": 24,
+    "levels": {
+      "Benjamin": "難",
+      "Junior": "中",
+      "Cadet": "難",
+      "Senior": "易"
+    },
+    "question_image": "images/2016-Q24/question.webp?v=86b1aca4",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "B",
+    "explanation_image": "images/2016-Q24/explanation.webp?v=3bbccc9a",
+    "auto": true
+  },
+  {
+    "id": "2016-Q25",
+    "title": "旗幟製作",
+    "type": "multiple_choice",
+    "year": 2016,
+    "number": 25,
+    "levels": {
+      "Junior": "難",
+      "Senior": "中"
+    },
+    "question_image": "images/2016-Q25/question.webp?v=0e4fd6e7",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "C",
+    "explanation_image": "images/2016-Q25/explanation.webp?v=a3837022",
+    "auto": true
+  },
+  {
+    "id": "2016-Q26",
+    "title": "霓虹燈招牌",
+    "type": "multiple_choice",
+    "year": 2016,
+    "number": 26,
+    "levels": {
+      "Benjamin": "中",
+      "Cadet": "易"
+    },
+    "question_image": "images/2016-Q26/question.webp?v=840b9b8f",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "C",
+    "explanation_image": "images/2016-Q26/explanation.webp?v=49108fc4",
+    "auto": true
+  },
+  {
+    "id": "2016-Q27",
+    "title": "方格紙上的瓢蟲",
+    "type": "multiple_choice",
+    "year": 2016,
+    "number": 27,
+    "levels": {
+      "Benjamin": "易"
+    },
+    "question_image": "images/2016-Q27/question.webp?v=837ea1dd",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "B",
+    "explanation_image": "images/2016-Q27/explanation.webp?v=a9f51482",
+    "auto": true
+  },
+  {
+    "id": "2016-Q28",
+    "title": "下棋機器人",
+    "type": "multiple_choice",
+    "year": 2016,
+    "number": 28,
+    "levels": {
+      "Benjamin": "難",
+      "Junior": "易",
+      "Cadet": "中"
+    },
+    "question_image": "images/2016-Q28/question.webp?v=eceeb62d",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "D",
+    "explanation_image": "images/2016-Q28/explanation.webp?v=afca10e6",
+    "auto": true
+  },
+  {
+    "id": "2016-Q29",
+    "title": "馬克杯分類",
+    "type": "multiple_choice",
+    "year": 2016,
+    "number": 29,
+    "levels": {
+      "Benjamin": "中",
+      "Junior": "易",
+      "Cadet": "中"
+    },
+    "question_image": "images/2016-Q29/question.webp?v=d2aa1ab1",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "D",
+    "explanation_image": "images/2016-Q29/explanation.webp?v=2e8fb0d7",
+    "auto": true
+  },
+  {
+    "id": "2016-Q30",
+    "title": "L 遊戲",
+    "type": "multiple_choice",
+    "year": 2016,
+    "number": 30,
+    "levels": {
+      "Junior": "難",
+      "Cadet": "難",
+      "Senior": "難"
+    },
+    "question_image": "images/2016-Q30/question.webp?v=b66b7f52",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "A",
+    "explanation_image": "images/2016-Q30/explanation.webp?v=ce131a44",
+    "auto": true
+  },
+  {
+    "id": "2016-Q31",
+    "title": "訊息加密",
+    "type": "multiple_choice",
+    "year": 2016,
+    "number": 31,
+    "levels": {
+      "Benjamin": "中",
+      "Cadet": "中"
+    },
+    "question_image": "images/2016-Q31/question.webp?v=9a95b9f8",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "B",
+    "explanation_image": "images/2016-Q31/explanation.webp?v=ef86a993",
+    "auto": true
+  },
+  {
+    "id": "2016-Q32",
+    "title": "排列花瓶",
+    "type": "multiple_choice",
+    "year": 2016,
+    "number": 32,
+    "levels": {
+      "Benjamin": "中",
+      "Cadet": "易"
+    },
+    "question_image": "images/2016-Q32/question.webp?v=2a7f9d83",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "A",
+    "explanation_image": "images/2016-Q32/explanation.webp?v=ec4d7f80",
+    "auto": true
+  },
+  {
+    "id": "2022-Q01",
+    "title": "樹林照片",
+    "type": "multiple_choice",
+    "year": 2022,
+    "number": 1,
+    "levels": {
+      "Benjamin": "易",
+      "Cadet": "易",
+      "Junior": "易",
+      "Senior": "易"
+    },
+    "question_image": "images/2022-Q01/question.webp?v=074f2b47",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "C",
+    "explanation_image": "images/2022-Q01/explanation.webp?v=784a1b29",
+    "auto": true
+  },
+  {
+    "id": "2022-Q02",
+    "title": "機器人工廠",
+    "type": "multiple_choice",
+    "year": 2022,
+    "number": 2,
+    "levels": {
+      "Benjamin": "中",
+      "Cadet": "中",
+      "Junior": "易",
+      "Senior": "易"
+    },
+    "question_image": "images/2022-Q02/question.webp?v=57fdd40c",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "B",
+    "explanation_image": "images/2022-Q02/explanation.webp?v=45e72db5",
+    "auto": true
+  },
+  {
+    "id": "2022-Q03",
+    "title": "小美的社區",
+    "type": "short_answer",
+    "year": 2022,
+    "number": 3,
+    "levels": {
+      "Benjamin": "難",
+      "Cadet": "中",
+      "Junior": "易",
+      "Senior": "易"
+    },
+    "question_image": "images/2022-Q03/question.webp?v=056671bb",
+    "options": [],
+    "correct_answer": "4",
+    "explanation_image": "images/2022-Q03/explanation.webp?v=600660d6",
+    "auto": true
+  },
+  {
+    "id": "2022-Q04",
+    "title": "連接海島",
+    "type": "short_answer",
+    "year": 2022,
+    "number": 4,
+    "levels": {
+      "Benjamin": "難",
+      "Cadet": "中",
+      "Junior": "易",
+      "Senior": "易"
+    },
+    "question_image": "images/2022-Q04/question.webp?v=2c3c0d8d",
+    "options": [],
+    "correct_answer": "44",
+    "explanation_image": "images/2022-Q04/explanation.webp?v=04fda825",
+    "auto": true
+  },
+  {
+    "id": "2022-Q05",
+    "title": "迷宮移動",
+    "type": "short_answer",
+    "year": 2022,
+    "number": 5,
+    "levels": {
+      "Benjamin": "難",
+      "Cadet": "難",
+      "Junior": "難",
+      "Senior": "難"
+    },
+    "question_image": "images/2022-Q05/question.webp?v=17d1f122",
+    "options": [],
+    "correct_answer": "18",
+    "explanation_image": "images/2022-Q05/explanation.webp?v=924421ba",
+    "auto": true
+  },
+  {
+    "id": "2022-Q06",
+    "title": "滑雪道地圖",
+    "type": "multiple_choice",
+    "year": 2022,
+    "number": 6,
+    "levels": {
+      "Benjamin": "中",
+      "Cadet": "中",
+      "Junior": "易",
+      "Senior": "易"
+    },
+    "question_image": "images/2022-Q06/question.webp?v=ee1cb4d0",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "C",
+    "explanation_image": "images/2022-Q06/explanation.webp?v=1f0a19eb",
+    "auto": true
+  },
+  {
+    "id": "2022-Q07",
+    "title": "海狸水壩",
+    "type": "multiple_choice",
+    "year": 2022,
+    "number": 7,
+    "levels": {
+      "Benjamin": "難",
+      "Cadet": "中",
+      "Junior": "中",
+      "Senior": "易"
+    },
+    "question_image": "images/2022-Q07/question.webp?v=250b5a89",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "D",
+    "explanation_image": "images/2022-Q07/explanation.webp?v=29453156",
+    "auto": true
+  },
+  {
+    "id": "2022-Q08",
+    "title": "生日派對",
+    "type": "multiple_choice",
+    "year": 2022,
+    "number": 8,
+    "levels": {
+      "Benjamin": "中",
+      "Cadet": "易",
+      "Junior": "易",
+      "Senior": "易"
+    },
+    "question_image": "images/2022-Q08/question.webp?v=d02c489a",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "C",
+    "explanation_image": "images/2022-Q08/explanation.webp?v=4ab9c5c4",
+    "auto": true
+  },
+  {
+    "id": "2022-Q09",
+    "title": "排數字遊戲",
+    "type": "short_answer",
+    "year": 2022,
+    "number": 9,
+    "levels": {
+      "Benjamin": "難",
+      "Cadet": "難",
+      "Junior": "中",
+      "Senior": "易"
+    },
+    "question_image": "images/2022-Q09/question.webp?v=5f71ed0f",
+    "options": [],
+    "correct_answer": "415236",
+    "explanation_image": "images/2022-Q09/explanation.webp?v=2ca0653d",
+    "auto": true
+  },
+  {
+    "id": "2022-Q10",
+    "title": "挑禮物",
+    "type": "multiple_choice",
+    "year": 2022,
+    "number": 10,
+    "levels": {
+      "Benjamin": "中",
+      "Cadet": "易",
+      "Junior": "易",
+      "Senior": "易"
+    },
+    "question_image": "images/2022-Q10/question.webp?v=c596266d",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "D",
+    "explanation_image": "images/2022-Q10/explanation.webp?v=fbcd47ac",
+    "auto": true
+  },
+  {
+    "id": "2022-Q11",
+    "title": "繽紛之塔",
+    "type": "multiple_choice",
+    "year": 2022,
+    "number": 11,
+    "levels": {
+      "Benjamin": "中",
+      "Cadet": "易",
+      "Junior": "易",
+      "Senior": "易"
+    },
+    "question_image": "images/2022-Q11/question.webp?v=402c3c14",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "A",
+    "explanation_image": "images/2022-Q11/explanation.webp?v=b112a6e8",
+    "auto": true
+  },
+  {
+    "id": "2022-Q12",
+    "title": "海狸資料庫",
+    "type": "multiple_choice",
+    "year": 2022,
+    "number": 12,
+    "levels": {
+      "Benjamin": "難",
+      "Cadet": "難",
+      "Junior": "難",
+      "Senior": "中"
+    },
+    "question_image": "images/2022-Q12/question.webp?v=e3eeba6b",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "C",
+    "explanation_image": "images/2022-Q12/explanation.webp?v=dbc2050b",
+    "auto": true
+  },
+  {
+    "id": "2022-Q13",
+    "title": "生成字串",
+    "type": "short_answer",
+    "year": 2022,
+    "number": 13,
+    "levels": {
+      "Benjamin": "難",
+      "Cadet": "難",
+      "Junior": "難",
+      "Senior": "難"
+    },
+    "question_image": "images/2022-Q13/question.webp?v=001de83e",
+    "options": [],
+    "correct_answer": "9",
+    "explanation_image": "images/2022-Q13/explanation.webp?v=75265daf",
+    "auto": true
+  },
+  {
+    "id": "2022-Q14",
+    "title": "漢堡食譜",
+    "type": "multiple_choice",
+    "year": 2022,
+    "number": 14,
+    "levels": {
+      "Benjamin": "易",
+      "Cadet": "易",
+      "Junior": "易",
+      "Senior": "易"
+    },
+    "question_image": "images/2022-Q14/question.webp?v=fa99fe9e",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "D",
+    "explanation_image": "images/2022-Q14/explanation.webp?v=456835a1",
+    "auto": true
+  },
+  {
+    "id": "2022-Q15",
+    "title": "海狸運動會",
+    "type": "short_answer",
+    "year": 2022,
+    "number": 15,
+    "levels": {
+      "Benjamin": "難",
+      "Cadet": "難",
+      "Junior": "難",
+      "Senior": "中"
+    },
+    "question_image": "images/2022-Q15/question.webp?v=e2c7f754",
+    "options": [],
+    "correct_answer": "DFG",
+    "explanation_image": "images/2022-Q15/explanation.webp?v=eae6305d",
+    "auto": true
+  },
+  {
+    "id": "2022-Q16",
+    "title": "石頭搬運",
+    "type": "multiple_choice",
+    "year": 2022,
+    "number": 16,
+    "levels": {
+      "Benjamin": "難",
+      "Cadet": "難",
+      "Junior": "難",
+      "Senior": "難"
+    },
+    "question_image": "images/2022-Q16/question.webp?v=4c2c4aa5",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "B",
+    "explanation_image": "images/2022-Q16/explanation.webp?v=6b0f4f07",
+    "auto": true
+  },
+  {
+    "id": "2022-Q17",
+    "title": "派對後大掃除",
+    "type": "multiple_choice",
+    "year": 2022,
+    "number": 17,
+    "levels": {
+      "Benjamin": "中",
+      "Cadet": "中",
+      "Junior": "易"
+    },
+    "question_image": "images/2022-Q17/question.webp?v=4c03fc5b",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "C",
+    "explanation_image": "images/2022-Q17/explanation.webp?v=e889c6a6",
+    "auto": true
+  },
+  {
+    "id": "2022-Q18",
+    "title": "草莓",
+    "type": "short_answer",
+    "year": 2022,
+    "number": 18,
+    "levels": {
+      "Benjamin": "難",
+      "Cadet": "中",
+      "Junior": "易",
+      "Senior": "易"
+    },
+    "question_image": "images/2022-Q18/question.webp?v=1fdcb6ac",
+    "options": [],
+    "correct_answer": "23",
+    "explanation_image": "images/2022-Q18/explanation.webp?v=e14f5f5b",
+    "auto": true
+  },
+  {
+    "id": "2022-Q19",
+    "title": "拔河",
+    "type": "short_answer",
+    "year": 2022,
+    "number": 19,
+    "levels": {
+      "Benjamin": "難",
+      "Cadet": "中",
+      "Junior": "中",
+      "Senior": "易"
+    },
+    "question_image": "images/2022-Q19/question.webp?v=ce01db76",
+    "options": [],
+    "correct_answer": "3",
+    "explanation_image": "images/2022-Q19/explanation.webp?v=0d290ce3",
+    "auto": true
+  },
+  {
+    "id": "2022-Q20",
+    "title": "地鐵路線圖",
+    "type": "multiple_choice",
+    "year": 2022,
+    "number": 20,
+    "levels": {
+      "Benjamin": "難",
+      "Cadet": "難",
+      "Junior": "中",
+      "Senior": "中"
+    },
+    "question_image": "images/2022-Q20/question.webp?v=00489f4d",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "B",
+    "explanation_image": "images/2022-Q20/explanation.webp?v=9d486a58",
+    "auto": true
+  },
+  {
+    "id": "2022-Q21",
+    "title": "飛機棚轉盤",
+    "type": "short_answer",
+    "year": 2022,
+    "number": 21,
+    "levels": {
+      "Benjamin": "難",
+      "Cadet": "難",
+      "Junior": "難",
+      "Senior": "中"
+    },
+    "question_image": "images/2022-Q21/question.webp?v=e68822ca",
+    "options": [],
+    "correct_answer": "413625",
+    "explanation_image": "images/2022-Q21/explanation.webp?v=8b1eadf3",
+    "auto": true
+  },
+  {
+    "id": "2022-Q22",
+    "title": "重疊的村莊",
+    "type": "short_answer",
+    "year": 2022,
+    "number": 22,
+    "levels": {
+      "Benjamin": "難",
+      "Cadet": "難",
+      "Junior": "難",
+      "Senior": "中"
+    },
+    "question_image": "images/2022-Q22/question.webp?v=33d49839",
+    "options": [],
+    "correct_answer": "5",
+    "explanation_image": "images/2022-Q22/explanation.webp?v=ef1a1df4",
+    "auto": true
+  },
+  {
+    "id": "2022-Q23",
+    "title": "給總統的禮物",
+    "type": "short_answer",
+    "year": 2022,
+    "number": 23,
+    "levels": {
+      "Benjamin": "難",
+      "Cadet": "難",
+      "Junior": "難",
+      "Senior": "中"
+    },
+    "question_image": "images/2022-Q23/question.webp?v=16a38dff",
+    "options": [],
+    "correct_answer": "2",
+    "explanation_image": "images/2022-Q23/explanation.webp?v=1005c81c",
+    "auto": true
+  },
+  {
+    "id": "2022-Q24",
+    "title": "最喜愛的寶石",
+    "type": "short_answer",
+    "year": 2022,
+    "number": 24,
+    "levels": {
+      "Benjamin": "難",
+      "Cadet": "難",
+      "Junior": "難",
+      "Senior": "難"
+    },
+    "question_image": "images/2022-Q24/question.webp?v=91e7af64",
+    "options": [],
+    "correct_answer": "10",
+    "explanation_image": "images/2022-Q24/explanation.webp?v=d0d6625a",
+    "auto": true
+  },
+  {
+    "id": "2022-Q25",
+    "title": "狸臉辨識",
+    "type": "short_answer",
+    "year": 2022,
+    "number": 25,
+    "levels": {
+      "Benjamin": "易",
+      "Cadet": "易",
+      "Junior": "易",
+      "Senior": "易"
+    },
+    "question_image": "images/2022-Q25/question.webp?v=89f48ee3",
+    "options": [],
+    "correct_answer": "5",
+    "explanation_image": "images/2022-Q25/explanation.webp?v=0072c848",
+    "auto": true
+  },
+  {
+    "id": "2022-Q26",
+    "title": "海狸餐廳",
+    "type": "multiple_choice",
+    "year": 2022,
+    "number": 26,
+    "levels": {
+      "Benjamin": "難",
+      "Cadet": "中",
+      "Junior": "易",
+      "Senior": "易"
+    },
+    "question_image": "images/2022-Q26/question.webp?v=368fed61",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      },
+      {
+        "id": "E"
+      }
+    ],
+    "correct_answer": "A",
+    "explanation_image": "images/2022-Q26/explanation.webp?v=591d9dd6",
+    "auto": true
+  },
+  {
+    "id": "2022-Q27",
+    "title": "彩色蠟燭- 題組一",
+    "type": "multiple_choice",
+    "year": 2022,
+    "number": 27,
+    "levels": {
+      "Benjamin": "中",
+      "Cadet": "易",
+      "Junior": "易",
+      "Senior": "易"
+    },
+    "question_image": "images/2022-Q27/question.webp?v=9b3d2466",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "C",
+    "explanation_image": "images/2022-Q27/explanation.webp?v=7a89fa02",
+    "auto": true
+  },
+  {
+    "id": "2022-Q28",
+    "title": "彩色蠟燭-題組二",
+    "type": "multiple_choice",
+    "year": 2022,
+    "number": 28,
+    "levels": {
+      "Benjamin": "難",
+      "Cadet": "難",
+      "Junior": "中",
+      "Senior": "中"
+    },
+    "question_image": "images/2022-Q28/question.webp?v=cfef6954",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "A",
+    "explanation_image": "images/2022-Q28/explanation.webp?v=7a89fa02",
+    "auto": true
+  },
+  {
+    "id": "2022-Q29",
+    "title": "串列",
+    "type": "short_answer",
+    "year": 2022,
+    "number": 29,
+    "levels": {
+      "Benjamin": "中",
+      "Cadet": "中",
+      "Junior": "易",
+      "Senior": "易"
+    },
+    "question_image": "images/2022-Q29/question.webp?v=39eeeae7",
+    "options": [],
+    "correct_answer": "4",
+    "explanation_image": "images/2022-Q29/explanation.webp?v=e818254d",
+    "auto": true
+  },
+  {
+    "id": "2022-Q30",
+    "title": "水手項鍊",
+    "type": "multiple_choice",
+    "year": 2022,
+    "number": 30,
+    "levels": {
+      "Benjamin": "中",
+      "Cadet": "易",
+      "Junior": "易",
+      "Senior": "易"
+    },
+    "question_image": "images/2022-Q30/question.webp?v=202af7f3",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "D",
+    "explanation_image": "images/2022-Q30/explanation.webp?v=e4191cac",
+    "auto": true
+  },
+  {
+    "id": "2022-Q31",
+    "title": "奧赫里德珍珠",
+    "type": "multiple_choice",
+    "year": 2022,
+    "number": 31,
+    "levels": {
+      "Benjamin": "難",
+      "Cadet": "難",
+      "Junior": "中",
+      "Senior": "易"
+    },
+    "question_image": "images/2022-Q31/question.webp?v=4e26434a",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "A",
+    "explanation_image": "images/2022-Q31/explanation.webp?v=962c8c5e",
+    "auto": true
+  },
+  {
+    "id": "2022-Q32",
+    "title": "貪婪的妖怪-題組一",
+    "type": "short_answer",
+    "year": 2022,
+    "number": 32,
+    "levels": {
+      "Benjamin": "難",
+      "Cadet": "難",
+      "Junior": "難",
+      "Senior": "中"
+    },
+    "question_image": "images/2022-Q32/question.webp?v=4ab8e544",
+    "options": [],
+    "correct_answer": "2313",
+    "explanation_image": "images/2022-Q32/explanation.webp?v=6cb8c442",
+    "auto": true
+  },
+  {
+    "id": "2022-Q33",
+    "title": "貪婪的妖怪 - 題組二",
+    "type": "multiple_choice",
+    "year": 2022,
+    "number": 33,
+    "levels": {
+      "Benjamin": "難",
+      "Cadet": "難",
+      "Junior": "難",
+      "Senior": "中"
+    },
+    "question_image": "images/2022-Q33/question.webp?v=3409507f",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "D",
+    "explanation_image": "images/2022-Q33/explanation.webp?v=6cb8c442",
+    "auto": true
+  },
+  {
+    "id": "2022-Q34",
+    "title": "搭建房屋",
+    "type": "multiple_choice",
+    "year": 2022,
+    "number": 34,
+    "levels": {
+      "Benjamin": "易",
+      "Cadet": "易",
+      "Junior": "易"
+    },
+    "question_image": "images/2022-Q34/question.webp?v=be1b8a2c",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "C",
+    "explanation_image": "images/2022-Q34/explanation.webp?v=ae2fe9d3",
+    "auto": true
+  },
+  {
+    "id": "2022-Q35",
+    "title": "泳池置物櫃",
+    "type": "multiple_choice",
+    "year": 2022,
+    "number": 35,
+    "levels": {
+      "Benjamin": "中",
+      "Cadet": "易",
+      "Junior": "易",
+      "Senior": "易"
+    },
+    "question_image": "images/2022-Q35/question.webp?v=5458abcb",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "A",
+    "explanation_image": "images/2022-Q35/explanation.webp?v=d5894642",
+    "auto": true
+  },
+  {
+    "id": "2022-Q36",
+    "title": "教室座位",
+    "type": "multiple_choice",
+    "year": 2022,
+    "number": 36,
+    "levels": {
+      "Benjamin": "中",
+      "Cadet": "易",
+      "Junior": "易",
+      "Senior": "易"
+    },
+    "question_image": "images/2022-Q36/question.webp?v=0dc5cc3d",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "C",
+    "explanation_image": "images/2022-Q36/explanation.webp?v=efdd3399",
+    "auto": true
+  },
+  {
+    "id": "2022-Q37",
+    "title": "電影之夜",
+    "type": "multiple_choice",
+    "year": 2022,
+    "number": 37,
+    "levels": {
+      "Benjamin": "中",
+      "Cadet": "中",
+      "Junior": "易",
+      "Senior": "易"
+    },
+    "question_image": "images/2022-Q37/question.webp?v=3c2aaf4e",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "C",
+    "explanation_image": "images/2022-Q37/explanation.webp?v=cd99dee1",
+    "auto": true
+  },
+  {
+    "id": "2022-Q38",
+    "title": "切線遊戲",
+    "type": "multiple_choice",
+    "year": 2022,
+    "number": 38,
+    "levels": {
+      "Benjamin": "難",
+      "Cadet": "難",
+      "Junior": "難",
+      "Senior": "中"
+    },
+    "question_image": "images/2022-Q38/question.webp?v=5e8ee562",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      },
+      {
+        "id": "E"
+      }
+    ],
+    "correct_answer": "B",
+    "explanation_image": "images/2022-Q38/explanation.webp?v=a80824e3",
+    "auto": true
+  },
+  {
+    "id": "2022-Q39",
+    "title": "蜂巢之旅",
+    "type": "multiple_choice",
+    "year": 2022,
+    "number": 39,
+    "levels": {
+      "Benjamin": "易",
+      "Cadet": "易",
+      "Senior": "易"
+    },
+    "question_image": "images/2022-Q39/question.webp?v=81b2dc7d",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "B",
+    "explanation_image": "images/2022-Q39/explanation.webp?v=1ad63be4",
+    "auto": true
+  },
+  {
+    "id": "2022-Q40",
+    "title": "石頭篩選機",
+    "type": "multiple_choice",
+    "year": 2022,
+    "number": 40,
+    "levels": {
+      "Benjamin": "中",
+      "Cadet": "易",
+      "Junior": "易",
+      "Senior": "易"
+    },
+    "question_image": "images/2022-Q40/question.webp?v=5565394c",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "B",
+    "explanation_image": "images/2022-Q40/explanation.webp?v=2a340846",
+    "auto": true
+  },
+  {
+    "id": "2022-Q41",
+    "title": "服飾推薦系統",
+    "type": "multiple_choice",
+    "year": 2022,
+    "number": 41,
+    "levels": {
+      "Benjamin": "中",
+      "Cadet": "易",
+      "Junior": "易",
+      "Senior": "易"
+    },
+    "question_image": "images/2022-Q41/question.webp?v=30f6dc7b",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "B",
+    "explanation_image": "images/2022-Q41/explanation.webp?v=a581ee81",
+    "auto": true
+  },
+  {
+    "id": "2022-Q42",
+    "title": "井字遊戲",
+    "type": "multiple_choice",
+    "year": 2022,
+    "number": 42,
+    "levels": {
+      "Benjamin": "難",
+      "Cadet": "中",
+      "Junior": "中"
+    },
+    "question_image": "images/2022-Q42/question.webp?v=8b8f68f0",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "C",
+    "explanation_image": "images/2022-Q42/explanation.webp?v=9ace031c",
+    "auto": true
+  },
+  {
+    "id": "2022-Q43",
+    "title": "螺帽和螺栓",
+    "type": "multiple_choice",
+    "year": 2022,
+    "number": 43,
+    "levels": {
+      "Benjamin": "易",
+      "Cadet": "易",
+      "Junior": "易",
+      "Senior": "易"
+    },
+    "question_image": "images/2022-Q43/question.webp?v=54aed332",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "C",
+    "explanation_image": "images/2022-Q43/explanation.webp?v=433f32c9",
+    "auto": true
+  },
+  {
+    "id": "2022-Q44",
+    "title": "無人機路徑- 題組一",
+    "type": "short_answer",
+    "year": 2022,
+    "number": 44,
+    "levels": {
+      "Benjamin": "難",
+      "Cadet": "難",
+      "Junior": "難",
+      "Senior": "難"
+    },
+    "question_image": "images/2022-Q44/question.webp?v=2fa2e2f7",
+    "options": [],
+    "correct_answer": "8",
+    "explanation_image": "images/2022-Q44/explanation.webp?v=7d704a9d",
+    "auto": true
+  },
+  {
+    "id": "2022-Q45",
+    "title": "無人機路徑 - 題組二",
+    "type": "multiple_choice",
+    "year": 2022,
+    "number": 45,
+    "levels": {
+      "Benjamin": "難",
+      "Cadet": "難",
+      "Junior": "難",
+      "Senior": "中"
+    },
+    "question_image": "images/2022-Q45/question.webp?v=bf8f0b0b",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "C",
+    "explanation_image": "images/2022-Q45/explanation.webp?v=7d704a9d",
+    "auto": true
+  },
+  {
+    "id": "2023-Q01",
+    "title": "壞掉的電子鐘",
+    "type": "multiple_choice",
+    "year": 2023,
+    "number": 1,
+    "levels": {
+      "Benjamin": "中",
+      "Cadet": "易",
+      "Junior": "易",
+      "Senior": "易"
+    },
+    "question_image": "images/2023-Q01/question.webp?v=115c8528",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "B",
+    "explanation_image": "images/2023-Q01/explanation.webp?v=e7de6d91",
+    "auto": true
+  },
+  {
+    "id": "2023-Q02",
+    "title": "海狸的寶藏",
+    "type": "multiple_choice",
+    "year": 2023,
+    "number": 2,
+    "levels": {
+      "Benjamin": "難",
+      "Cadet": "中",
+      "Junior": "易",
+      "Senior": "易"
+    },
+    "question_image": "images/2023-Q02/question.webp?v=74cfce20",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "C",
+    "explanation_image": "images/2023-Q02/explanation.webp?v=93b5f361",
+    "auto": true
+  },
+  {
+    "id": "2023-Q03",
+    "title": "控制桿",
+    "type": "multiple_choice",
+    "year": 2023,
+    "number": 3,
+    "levels": {
+      "Benjamin": "中",
+      "Cadet": "易",
+      "Junior": "易",
+      "Senior": "易"
+    },
+    "question_image": "images/2023-Q03/question.webp?v=554efc8e",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "C",
+    "explanation_image": "images/2023-Q03/explanation.webp?v=474ac361",
+    "auto": true
+  },
+  {
+    "id": "2023-Q04",
+    "title": "天線遙控器",
+    "type": "multiple_choice",
+    "year": 2023,
+    "number": 4,
+    "levels": {
+      "Benjamin": "難",
+      "Cadet": "中",
+      "Junior": "易",
+      "Senior": "易"
+    },
+    "question_image": "images/2023-Q04/question.webp?v=c9e22650",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "D",
+    "explanation_image": "images/2023-Q04/explanation.webp?v=322be552",
+    "auto": true
+  },
+  {
+    "id": "2023-Q05",
+    "title": "爬山訓練 - 題組一",
+    "type": "short_answer",
+    "year": 2023,
+    "number": 5,
+    "levels": {
+      "Benjamin": "難",
+      "Cadet": "難",
+      "Junior": "難",
+      "Senior": "難"
+    },
+    "question_image": "images/2023-Q05/question.webp?v=9f1f268e",
+    "options": [],
+    "correct_answer": "1",
+    "explanation_image": "images/2023-Q05/explanation.webp?v=8903e1fc",
+    "auto": true
+  },
+  {
+    "id": "2023-Q06",
+    "title": "爬山訓練-題組二",
+    "type": "short_answer",
+    "year": 2023,
+    "number": 6,
+    "levels": {
+      "Benjamin": "難",
+      "Cadet": "難",
+      "Junior": "難",
+      "Senior": "難"
+    },
+    "question_image": "images/2023-Q06/question.webp?v=17072fb9",
+    "options": [],
+    "correct_answer": "365412",
+    "explanation_image": "images/2023-Q06/explanation.webp?v=35cfc18e",
+    "auto": true
+  },
+  {
+    "id": "2023-Q07",
+    "title": "列車",
+    "type": "multiple_choice",
+    "year": 2023,
+    "number": 7,
+    "levels": {
+      "Cadet": "難",
+      "Junior": "中",
+      "Senior": "中"
+    },
+    "question_image": "images/2023-Q07/question.webp?v=1a3e9213",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "B",
+    "explanation_image": "images/2023-Q07/explanation.webp?v=849c6c90",
+    "auto": true
+  },
+  {
+    "id": "2023-Q08",
+    "title": "淘汰賽",
+    "type": "multiple_choice",
+    "year": 2023,
+    "number": 8,
+    "levels": {
+      "Benjamin": "難",
+      "Cadet": "難",
+      "Junior": "中",
+      "Senior": "中"
+    },
+    "question_image": "images/2023-Q08/question.webp?v=107e6e28",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "B",
+    "explanation_image": "images/2023-Q08/explanation.webp?v=8e6ff210",
+    "auto": true
+  },
+  {
+    "id": "2023-Q09",
+    "title": "環狀密碼",
+    "type": "multiple_choice",
+    "year": 2023,
+    "number": 9,
+    "levels": {
+      "Benjamin": "易",
+      "Cadet": "易",
+      "Junior": "易",
+      "Senior": "易"
+    },
+    "question_image": "images/2023-Q09/question.webp?v=af5c47c1",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "C",
+    "explanation_image": "images/2023-Q09/explanation.webp?v=f3e5b0cb",
+    "auto": true
+  },
+  {
+    "id": "2023-Q10",
+    "title": "海狸壓縮法",
+    "type": "multiple_choice",
+    "year": 2023,
+    "number": 10,
+    "levels": {
+      "Benjamin": "難",
+      "Cadet": "易",
+      "Junior": "易",
+      "Senior": "易"
+    },
+    "question_image": "images/2023-Q10/question.webp?v=957c0d68",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "D",
+    "explanation_image": "images/2023-Q10/explanation.webp?v=808497b1",
+    "auto": true
+  },
+  {
+    "id": "2023-Q11",
+    "title": "灑水器",
+    "type": "short_answer",
+    "year": 2023,
+    "number": 11,
+    "levels": {
+      "Benjamin": "中",
+      "Cadet": "中",
+      "Junior": "易",
+      "Senior": "易"
+    },
+    "question_image": "images/2023-Q11/question.webp?v=b078c533",
+    "options": [],
+    "correct_answer": "25",
+    "explanation_image": "images/2023-Q11/explanation.webp?v=1da05755",
+    "auto": true
+  },
+  {
+    "id": "2023-Q12",
+    "title": "密封信件",
+    "type": "multiple_choice",
+    "year": 2023,
+    "number": 12,
+    "levels": {
+      "Benjamin": "難",
+      "Cadet": "中",
+      "Junior": "中",
+      "Senior": "中"
+    },
+    "question_image": "images/2023-Q12/question.webp?v=7d392d7a",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      },
+      {
+        "id": "E"
+      }
+    ],
+    "correct_answer": "D",
+    "explanation_image": "images/2023-Q12/explanation.webp?v=127088c6",
+    "auto": true
+  },
+  {
+    "id": "2023-Q13",
+    "title": "狸書追蹤",
+    "type": "multiple_choice",
+    "year": 2023,
+    "number": 13,
+    "levels": {
+      "Benjamin": "中",
+      "Cadet": "易",
+      "Junior": "易",
+      "Senior": "易"
+    },
+    "question_image": "images/2023-Q13/question.webp?v=8e1ac8c6",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "D",
+    "explanation_image": "images/2023-Q13/explanation.webp?v=51a54f3a",
+    "auto": true
+  },
+  {
+    "id": "2023-Q14",
+    "title": "岩石上的派對",
+    "type": "short_answer",
+    "year": 2023,
+    "number": 14,
+    "levels": {
+      "Benjamin": "難",
+      "Cadet": "難",
+      "Junior": "中",
+      "Senior": "中"
+    },
+    "question_image": "images/2023-Q14/question.webp?v=191b2c7f",
+    "options": [],
+    "correct_answer": "6",
+    "explanation_image": "images/2023-Q14/explanation.webp?v=b538e840",
+    "auto": true
+  },
+  {
+    "id": "2023-Q15",
+    "title": "果汁車",
+    "type": "multiple_choice",
+    "year": 2023,
+    "number": 15,
+    "levels": {
+      "Benjamin": "難",
+      "Cadet": "難",
+      "Junior": "難",
+      "Senior": "難"
+    },
+    "question_image": "images/2023-Q15/question.webp?v=e8f0242d",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "D",
+    "explanation_image": "images/2023-Q15/explanation.webp?v=3dd5d2dc",
+    "auto": true
+  },
+  {
+    "id": "2023-Q16",
+    "title": "小艾的任務",
+    "type": "multiple_choice",
+    "year": 2023,
+    "number": 16,
+    "levels": {
+      "Benjamin": "難",
+      "Cadet": "難",
+      "Junior": "難",
+      "Senior": "中"
+    },
+    "question_image": "images/2023-Q16/question.webp?v=7ff3a09a",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "C",
+    "explanation_image": "images/2023-Q16/explanation.webp?v=02ae597a",
+    "auto": true
+  },
+  {
+    "id": "2023-Q17",
+    "title": "奇幻城堡",
+    "type": "short_answer",
+    "year": 2023,
+    "number": 17,
+    "levels": {
+      "Benjamin": "難",
+      "Cadet": "難",
+      "Junior": "中",
+      "Senior": "中"
+    },
+    "question_image": "images/2023-Q17/question.webp?v=97bb4957",
+    "options": [],
+    "correct_answer": "3",
+    "explanation_image": "images/2023-Q17/explanation.webp?v=35a14c53",
+    "auto": true
+  },
+  {
+    "id": "2023-Q18",
+    "title": "海狸村的彩色門",
+    "type": "short_answer",
+    "year": 2023,
+    "number": 18,
+    "levels": {
+      "Benjamin": "難",
+      "Cadet": "難",
+      "Junior": "難",
+      "Senior": "中"
+    },
+    "question_image": "images/2023-Q18/question.webp?v=a768fe4a",
+    "options": [],
+    "correct_answer": "9",
+    "explanation_image": "images/2023-Q18/explanation.webp?v=fee7da9e",
+    "auto": true
+  },
+  {
+    "id": "2023-Q19",
+    "title": "搭建橋樑",
+    "type": "multiple_choice",
+    "year": 2023,
+    "number": 19,
+    "levels": {
+      "Benjamin": "難",
+      "Junior": "難",
+      "Senior": "難"
+    },
+    "question_image": "images/2023-Q19/question.webp?v=93e12882",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      },
+      {
+        "id": "E"
+      }
+    ],
+    "correct_answer": "D",
+    "explanation_image": "images/2023-Q19/explanation.webp?v=b743f14f",
+    "auto": true
+  },
+  {
+    "id": "2023-Q20",
+    "title": "跳島遊戲",
+    "type": "multiple_choice",
+    "year": 2023,
+    "number": 20,
+    "levels": {
+      "Benjamin": "難",
+      "Cadet": "難",
+      "Junior": "難",
+      "Senior": "難"
+    },
+    "question_image": "images/2023-Q20/question.webp?v=9c0d41ff",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      },
+      {
+        "id": "E"
+      }
+    ],
+    "correct_answer": "C",
+    "explanation_image": "images/2023-Q20/explanation.webp?v=5a97c26c",
+    "auto": true
+  },
+  {
+    "id": "2023-Q21",
+    "title": "神奇樹",
+    "type": "multiple_choice",
+    "year": 2023,
+    "number": 21,
+    "levels": {
+      "Benjamin": "難",
+      "Cadet": "難",
+      "Junior": "難",
+      "Senior": "難"
+    },
+    "question_image": "images/2023-Q21/question.webp?v=40296a83",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "B",
+    "explanation_image": "images/2023-Q21/explanation.webp?v=c6be42eb",
+    "auto": true
+  },
+  {
+    "id": "2023-Q22",
+    "title": "印刷機",
+    "type": "multiple_choice",
+    "year": 2023,
+    "number": 22,
+    "levels": {
+      "Benjamin": "中",
+      "Cadet": "易",
+      "Junior": "易",
+      "Senior": "易"
+    },
+    "question_image": "images/2023-Q22/question.webp?v=3492eff5",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "C",
+    "explanation_image": "images/2023-Q22/explanation.webp?v=83c1d8ae",
+    "auto": true
+  },
+  {
+    "id": "2023-Q23",
+    "title": "種植胡蘿蔔",
+    "type": "multiple_choice",
+    "year": 2023,
+    "number": 23,
+    "levels": {
+      "Benjamin": "易",
+      "Cadet": "易",
+      "Junior": "易",
+      "Senior": "易"
+    },
+    "question_image": "images/2023-Q23/question.webp?v=59278343",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "D",
+    "explanation_image": "images/2023-Q23/explanation.webp?v=0f810950",
+    "auto": true
+  },
+  {
+    "id": "2023-Q24",
+    "title": "散步日誌",
+    "type": "multiple_choice",
+    "year": 2023,
+    "number": 24,
+    "levels": {
+      "Benjamin": "難",
+      "Cadet": "易",
+      "Junior": "易",
+      "Senior": "易"
+    },
+    "question_image": "images/2023-Q24/question.webp?v=7983797a",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "C",
+    "explanation_image": "images/2023-Q24/explanation.webp?v=5d7cf95c",
+    "auto": true
+  },
+  {
+    "id": "2023-Q25",
+    "title": "自駕車",
+    "type": "multiple_choice",
+    "year": 2023,
+    "number": 25,
+    "levels": {
+      "Benjamin": "難",
+      "Cadet": "中",
+      "Junior": "中",
+      "Senior": "中"
+    },
+    "question_image": "images/2023-Q25/question.webp?v=77c3c46f",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      },
+      {
+        "id": "E"
+      }
+    ],
+    "correct_answer": "D",
+    "explanation_image": "images/2023-Q25/explanation.webp?v=48ff1e8f",
+    "auto": true
+  },
+  {
+    "id": "2023-Q26",
+    "title": "碰撞機器人",
+    "type": "multiple_choice",
+    "year": 2023,
+    "number": 26,
+    "levels": {
+      "Benjamin": "難",
+      "Cadet": "難",
+      "Junior": "難",
+      "Senior": "難"
+    },
+    "question_image": "images/2023-Q26/question.webp?v=e2f94cf4",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      },
+      {
+        "id": "E"
+      }
+    ],
+    "correct_answer": "D",
+    "explanation_image": "images/2023-Q26/explanation.webp?v=73f5a8f5",
+    "auto": true
+  },
+  {
+    "id": "2023-Q27",
+    "title": "香蕉背包",
+    "type": "multiple_choice",
+    "year": 2023,
+    "number": 27,
+    "levels": {
+      "Benjamin": "難",
+      "Cadet": "中",
+      "Junior": "易",
+      "Senior": "易"
+    },
+    "question_image": "images/2023-Q27/question.webp?v=05422a05",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      },
+      {
+        "id": "E"
+      }
+    ],
+    "correct_answer": "D",
+    "explanation_image": "images/2023-Q27/explanation.webp?v=f59c1901",
+    "auto": true
+  },
+  {
+    "id": "2023-Q28",
+    "title": "火車卸貨 -題組一",
+    "type": "multiple_choice",
+    "year": 2023,
+    "number": 28,
+    "levels": {
+      "Benjamin": "難",
+      "Cadet": "易",
+      "Junior": "易",
+      "Senior": "易"
+    },
+    "question_image": "images/2023-Q28/question.webp?v=637cdd7c",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      },
+      {
+        "id": "E"
+      }
+    ],
+    "correct_answer": "D",
+    "explanation_image": "images/2023-Q28/explanation.webp?v=a1ee6086",
+    "auto": true
+  },
+  {
+    "id": "2023-Q29",
+    "title": "火車卸貨 - 題組二",
+    "type": "short_answer",
+    "year": 2023,
+    "number": 29,
+    "levels": {
+      "Benjamin": "難",
+      "Cadet": "中",
+      "Junior": "易",
+      "Senior": "易"
+    },
+    "question_image": "images/2023-Q29/question.webp?v=2cda710f",
+    "options": [],
+    "correct_answer": "7",
+    "explanation_image": "images/2023-Q29/explanation.webp?v=e17ec81b",
+    "auto": true
+  },
+  {
+    "id": "2023-Q30",
+    "title": "旋轉球臺",
+    "type": "multiple_choice",
+    "year": 2023,
+    "number": 30,
+    "levels": {
+      "Benjamin": "難",
+      "Cadet": "中",
+      "Junior": "易",
+      "Senior": "易"
+    },
+    "question_image": "images/2023-Q30/question.webp?v=f60b864c",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "B",
+    "explanation_image": "images/2023-Q30/explanation.webp?v=c21c1077",
+    "auto": true
+  },
+  {
+    "id": "2023-Q31",
+    "title": "排隊",
+    "type": "multiple_choice",
+    "year": 2023,
+    "number": 31,
+    "levels": {
+      "Benjamin": "難",
+      "Cadet": "中",
+      "Junior": "易",
+      "Senior": "易"
+    },
+    "question_image": "images/2023-Q31/question.webp?v=d87e7c9a",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "A",
+    "explanation_image": "images/2023-Q31/explanation.webp?v=156f3ef7",
+    "auto": true
+  },
+  {
+    "id": "2023-Q32",
+    "title": "動物園一日遊",
+    "type": "short_answer",
+    "year": 2023,
+    "number": 32,
+    "levels": {
+      "Benjamin": "中",
+      "Cadet": "易",
+      "Junior": "易",
+      "Senior": "易"
+    },
+    "question_image": "images/2023-Q32/question.webp?v=6b980452",
+    "options": [],
+    "correct_answer": "5",
+    "explanation_image": "images/2023-Q32/explanation.webp?v=ba662ead",
+    "auto": true
+  },
+  {
+    "id": "2023-Q33",
+    "title": "聖誕老人的幫手",
+    "type": "multiple_choice",
+    "year": 2023,
+    "number": 33,
+    "levels": {
+      "Benjamin": "難",
+      "Cadet": "中",
+      "Junior": "易",
+      "Senior": "易"
+    },
+    "question_image": "images/2023-Q33/question.webp?v=05924a2d",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "B",
+    "explanation_image": "images/2023-Q33/explanation.webp?v=f1d3c901",
+    "auto": true
+  },
+  {
+    "id": "2023-Q34",
+    "title": "寵物造型師",
+    "type": "multiple_choice",
+    "year": 2023,
+    "number": 34,
+    "levels": {
+      "Benjamin": "難",
+      "Cadet": "中",
+      "Junior": "易",
+      "Senior": "易"
+    },
+    "question_image": "images/2023-Q34/question.webp?v=5b92ddce",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "B",
+    "explanation_image": "images/2023-Q34/explanation.webp?v=2694e5c7",
+    "auto": true
+  },
+  {
+    "id": "2023-Q35",
+    "title": "蘋果庫存",
+    "type": "multiple_choice",
+    "year": 2023,
+    "number": 35,
+    "levels": {
+      "Cadet": "難",
+      "Junior": "難",
+      "Senior": "中"
+    },
+    "question_image": "images/2023-Q35/question.webp?v=71944194",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      },
+      {
+        "id": "E"
+      }
+    ],
+    "correct_answer": "B",
+    "explanation_image": "images/2023-Q35/explanation.webp?v=d546425a",
+    "auto": true
+  },
+  {
+    "id": "2023-Q36",
+    "title": "尋找加密金鑰",
+    "type": "multiple_choice",
+    "year": 2023,
+    "number": 36,
+    "levels": {
+      "Cadet": "難",
+      "Junior": "中",
+      "Senior": "中"
+    },
+    "question_image": "images/2023-Q36/question.webp?v=e7ce292b",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "C",
+    "explanation_image": "images/2023-Q36/explanation.webp?v=13dbf8a5",
+    "auto": true
+  },
+  {
+    "id": "2023-Q37",
+    "title": "電子鎖",
+    "type": "multiple_choice",
+    "year": 2023,
+    "number": 37,
+    "levels": {
+      "Cadet": "難",
+      "Junior": "中",
+      "Senior": "中"
+    },
+    "question_image": "images/2023-Q37/question.webp?v=1aa94c98",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "B",
+    "explanation_image": "images/2023-Q37/explanation.webp?v=259a37be",
+    "auto": true
+  },
+  {
+    "id": "2023-Q38",
+    "title": "徒步旅行",
+    "type": "multiple_choice",
+    "year": 2023,
+    "number": 38,
+    "levels": {
+      "Benjamin": "難",
+      "Cadet": "中",
+      "Junior": "易",
+      "Senior": "易"
+    },
+    "question_image": "images/2023-Q38/question.webp?v=3f13a1c8",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      },
+      {
+        "id": "E"
+      }
+    ],
+    "correct_answer": "C",
+    "explanation_image": "images/2023-Q38/explanation.webp?v=6d5949dd",
+    "auto": true
+  },
+  {
+    "id": "2023-Q39",
+    "title": "棋盤遊戲",
+    "type": "short_answer",
+    "year": 2023,
+    "number": 39,
+    "levels": {
+      "Cadet": "難",
+      "Junior": "中",
+      "Senior": "中"
+    },
+    "question_image": "images/2023-Q39/question.webp?v=820c3195",
+    "options": [],
+    "correct_answer": "16",
+    "explanation_image": "images/2023-Q39/explanation.webp?v=6b07adfe",
+    "auto": true
+  },
+  {
+    "id": "2023-Q40",
+    "title": "字詞變換",
+    "type": "multiple_choice",
+    "year": 2023,
+    "number": 40,
+    "levels": {
+      "Benjamin": "難",
+      "Cadet": "難",
+      "Junior": "中",
+      "Senior": "中"
+    },
+    "question_image": "images/2023-Q40/question.webp?v=ea51bdf9",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "C",
+    "explanation_image": "images/2023-Q40/explanation.webp?v=7b1b8fe3",
+    "auto": true
+  },
+  {
+    "id": "2023-Q41",
+    "title": "紙鈔辨識",
+    "type": "multiple_choice",
+    "year": 2023,
+    "number": 41,
+    "levels": {
+      "Cadet": "易",
+      "Junior": "易",
+      "Senior": "易"
+    },
+    "question_image": "images/2023-Q41/question.webp?v=6c017553",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "B",
+    "explanation_image": "images/2023-Q41/explanation.webp?v=6325f957",
+    "auto": true
+  },
+  {
+    "id": "2023-Q42",
+    "title": "可愛生物",
+    "type": "multiple_choice",
+    "year": 2023,
+    "number": 42,
+    "levels": {
+      "Benjamin": "易",
+      "Cadet": "易",
+      "Junior": "易",
+      "Senior": "易"
+    },
+    "question_image": "images/2023-Q42/question.webp?v=9be87159",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ],
+    "correct_answer": "D",
+    "explanation_image": "images/2023-Q42/explanation.webp?v=4467a9ed",
+    "auto": true
+  },
+  {
+    "id": "2023-Q43",
+    "title": "海狸球賽",
+    "type": "multiple_choice",
+    "year": 2023,
+    "number": 43,
+    "levels": {
+      "Benjamin": "易",
+      "Cadet": "易",
+      "Junior": "易",
+      "Senior": "易"
+    },
+    "question_image": "images/2023-Q43/question.webp?v=92ed2e9d",
+    "options": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      },
+      {
+        "id": "E"
+      }
+    ],
+    "correct_answer": "D",
+    "explanation_image": "images/2023-Q43/explanation.webp?v=7d66dabe",
+    "auto": true
+  },
+  {
+    "id": "2023-Q44",
+    "title": "更近或更遠",
+    "type": "short_answer",
+    "year": 2023,
+    "number": 44,
+    "levels": {
+      "Cadet": "難",
+      "Junior": "中",
+      "Senior": "易"
+    },
+    "question_image": "images/2023-Q44/question.webp?v=d756e319",
+    "options": [],
+    "correct_answer": "5",
+    "explanation_image": "images/2023-Q44/explanation.webp?v=6d1d5715",
+    "auto": true
+  },
+  {
+    "id": "2023-Q45",
+    "title": "下水道規劃",
+    "type": "short_answer",
+    "year": 2023,
+    "number": 45,
+    "levels": {
+      "Cadet": "難",
+      "Junior": "中",
+      "Senior": "易"
+    },
+    "question_image": "images/2023-Q45/question.webp?v=a4b03d96",
+    "options": [],
+    "correct_answer": "24",
+    "explanation_image": "images/2023-Q45/explanation.webp?v=9d1dab7c",
+    "auto": true
+  },
+  {
+    "id": "2023-Q46",
+    "title": "生命遊戲",
+    "type": "short_answer",
+    "year": 2023,
+    "number": 46,
+    "levels": {
+      "Cadet": "難",
+      "Junior": "中",
+      "Senior": "易"
+    },
+    "question_image": "images/2023-Q46/question.webp?v=a99598f6",
+    "options": [],
+    "correct_answer": "12",
+    "explanation_image": "images/2023-Q46/explanation.webp?v=404ff835",
+    "auto": true
   }
 ]

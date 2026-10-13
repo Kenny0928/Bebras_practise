@@ -31,6 +31,14 @@
                 </div>
             </div>
 
+            <div class="filter-panel">
+                <div class="nav-title">篩選題目</div>
+                <select id="filter-year" class="filter-select" aria-label="年份"></select>
+                <select id="filter-grade" class="filter-select" aria-label="年級"></select>
+                <select id="filter-diff" class="filter-select" aria-label="難度"></select>
+                <div id="filter-count" class="filter-count"></div>
+            </div>
+
             <div class="nav-title">題目列表</div>
             <div id="question-nav-grid" class="question-nav-grid">
                 <!-- Navigation Buttons injected by JS -->
@@ -66,6 +74,7 @@
                 <div class="question-header">
                     <span class="badge" id="badge-question-id">Question 000</span>
                     <h1 id="question-title" class="question-title">題目載入中...</h1>
+                    <div id="question-meta" class="question-meta"></div>
                     <div id="status-badge" class="status-badge hidden">
                         <!-- e.g. "答對" / "答錯" -->
                     </div>
@@ -113,6 +122,15 @@
                     <button id="btn-next" class="btn-nav btn-primary hidden">
                         下一題 <i class="fa-solid fa-arrow-right"></i>
                     </button>
+                </div>
+            </div>
+
+            <!-- Empty Filter Result -->
+            <div id="empty-screen" class="finish-screen hidden fade-in">
+                <div class="finish-card glass-panel">
+                    <div class="finish-icon">🔍</div>
+                    <h2>沒有符合的題目</h2>
+                    <p>請調整左側的年份、年級或難度篩選。</p>
                 </div>
             </div>
 
